@@ -16,12 +16,12 @@ Proyek ini bertujuan untuk mengembangkan konsep Digital Twin yang dapat membantu
 
 ## Anggota Kelompok
 
-| No. | Nama | NIM | 
+| No. | Nama | Tugas | 
 | --- | --- | --- | 
-| 1 | Intan Fadila | 230504074 | 
-| 2 | Fitri Nabila Suhendra | 230504056 | 
-| 3 | Chaira Syakira Lubis | 230504064 | 
-| 4 | Siti Najri Apriyanti | 230504073 | 
+| 1 | Intan Fadila | Function Point Analysis | 
+| 2 | Fitri Nabila Suhendra | WBS | 
+| 3 | Chaira Syakira Lubis | Stakeholder Registration | 
+| 4 | Siti Najri Apriyanti | Project Charter | 
 
 ---
 
