@@ -8,6 +8,7 @@
 [![Tim](https://img.shields.io/badge/TIM-c0392b?style=for-the-badge)](#tim)
 [![Tahap](https://img.shields.io/badge/TAHAP-d9822b?style=for-the-badge)](#tahap)
 [![Jadwal](https://img.shields.io/badge/JADWAL-e09a1f?style=for-the-badge)](#jadwal)
+[![Tahap 2](https://img.shields.io/badge/PROJECT%20PLANNING-a8450f?style=for-the-badge)](#planning)
 [![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
 [![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
 
@@ -27,7 +28,7 @@
 
 > 🎯 **TUJUAN:** merencanakan digital twin sederhana supaya pesanan di usaha Kak Linda tidak lagi terlupa dan datanya lebih rapi.
 > 🧑‍🍳 **TIM:** Kelompok 12, 4 orang.
-> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal sudah berupa draf, tahap 2 (jadwal, manday, biaya, risiko) sedang disiapkan.
+> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal dan Tahap 2 (jadwal, manday, biaya, risiko) sudah berupa draf. Berikutnya analisis kebutuhan.
 
 Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng. Pesanan masuk secara langsung, pencatatan memakai buku, dan kesulitan yang dirasakan adalah pesanan sering lupa.
 
@@ -63,13 +64,14 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 
 | No | Nama | NIM | GitHub | Peran utama |
 |:-:|---|---|---|---|
-| 1 | Intan Fadila | [230504074] | [intanfadila-ui] | Analisis Titik Fungsi |
-| 2 | Fitri Nabila Suhendra | [230504056] | [fitrinabila-gif] | WBS |
-| 3 | Chaira Syakira Lubis | [230504064] | [narashaa] | Pendaftaran Pemangku Kepentingan |
-| 4 | Siti Najri Apriyanti | [230504073] | [stnajriapriyanti-dot] | Piagam Proyek |
+| 1 | Intan Fadila | [ISI] | [ISI] | Analisis Titik Fungsi |
+| 2 | Fitri Nabila Suhendra | [ISI] | [ISI] | WBS |
+| 3 | Chaira Syakira Lubis | [ISI] | [ISI] | Pendaftaran Pemangku Kepentingan |
+| 4 | Siti Najri Apriyanti | [ISI] | [ISI] | Piagam Proyek |
 
+**Ketua kelompok:** [ISI]
 **Program studi:** Informatika | **Universitas:** Universitas Samudra
-**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna Fadila
+**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -77,7 +79,7 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 ## 🔥 Tusuk Progres
 
 <div align="center">
-<img src="assets/levels.svg" alt="Tusuk progres: tahap 1 selesai sebagai draf, tahap 2 sedang berjalan" width="100%">
+<img src="assets/levels.svg" alt="Tusuk progres: tahap 1 dan 2 selesai sebagai draf, tahap 3 berikutnya" width="100%">
 </div>
 
 Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
@@ -98,22 +100,22 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 </details>
 
 <details>
-<summary><b>2 · Perencanaan</b> &nbsp; 🔥 sedang berjalan</summary>
+<summary><b>2 · Perencanaan</b> &nbsp; ✅ selesai (draf)</summary>
 
 <br>
 
-- **2.1** WBS (draf selesai)
+- **2.1** WBS
 - **2.2** Jadwal dan manday
 - **2.3** Biaya dan risiko
-- **2.4** Persiapan GitHub (draf selesai)
+- **2.4** Persiapan GitHub
 
-📄 [WBS](docs/04-wbs.md) · [Git dan GitHub](docs/05-git-dan-github.md)
+📄 [WBS](docs/04-wbs.md) · [Git dan GitHub](docs/05-git-dan-github.md) · [Jadwal Gantt](docs/tahap-2-project-planning/jadwal-gantt.md) · [Manday](docs/tahap-2-project-planning/effort-manday.md) · [Biaya](docs/tahap-2-project-planning/estimasi-biaya.md) · [Risiko](docs/tahap-2-project-planning/risk-register.md)
 🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Chaira Syakira Lubis, semua anggota (2.4)
 
 </details>
 
 <details>
-<summary><b>3 · Analisis Kebutuhan</b> &nbsp; 🔒 belum dimulai</summary>
+<summary><b>3 · Analisis Kebutuhan</b> &nbsp; 🔥 berikutnya</summary>
 
 <br>
 
@@ -185,14 +187,31 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 <a id="jadwal"></a>
 ## 📅 Jadwal
 
-| Tonggak | Target | Status |
-|---|---|---|
-| T1 · Dokumen awal di GitHub | 4 November 2026 | Draf awal |
-| T2 · Analisis kebutuhan dan perancangan | 2 Desember 2026 | Belum dimulai |
-| T3 · Pengembangan dan pengujian | 6 Januari 2027 | Belum dimulai |
-| T4 · Dokumentasi dan penyerahan akhir | 20 Januari 2027 | Belum dimulai |
+| Tonggak | Tenggat | Pekerjaan terakhir selesai | Status |
+|---|---|---|---|
+| MS1 · Tahap 2 Project Planning dikumpulkan | 24 Oktober 2026 | 20 Oktober 2026 | Draf selesai |
+| MS2 · Analisis dan perancangan selesai | 13 November 2026 | 10 November 2026 | Belum dimulai |
+| MS3 · Pengembangan dan pengujian selesai | 4 Desember 2026 | 1 Desember 2026 | Belum dimulai |
+| MS4 · Tenggat akhir proyek | 18 Desember 2026 | 11 Desember 2026 | Belum dimulai |
 
-> Tanggal di atas adalah **asumsi kelompok**. Sesuaikan dengan tenggat resmi dari dosen. [ISI tenggat resmi Tahap 2]
+> Tanggal mulai dan tenggat adalah **asumsi kelompok**. Ganti di sheet Info pada Excel, lalu jadwal terhitung ulang. [ISI tenggat resmi]
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="planning"></a>
+## 📊 Project Planning (Tahap 2)
+
+| Keluaran | Berkas |
+|---|---|
+| Jadwal dan Gantt Chart | [jadwal-gantt.md](docs/tahap-2-project-planning/jadwal-gantt.md) |
+| Resource dan Responsibility Plan | [resource-plan.md](docs/tahap-2-project-planning/resource-plan.md) |
+| Estimasi Usaha (Manday, PERT) | [effort-manday.md](docs/tahap-2-project-planning/effort-manday.md) |
+| Estimasi Biaya | [estimasi-biaya.md](docs/tahap-2-project-planning/estimasi-biaya.md) |
+| Risk Register | [risk-register.md](docs/tahap-2-project-planning/risk-register.md) |
+| Excel lengkap (rumus hidup) | [Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx](docs/tahap-2-project-planning/Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx) |
+| Halaman interaktif | [index.html](index.html) (aktifkan GitHub Pages: Settings > Pages > Branch main, folder root) |
+
+Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tunai Rp 643.500, total termasuk nilai setara tenaga kerja Rp 8.419.125, 2 risiko Tinggi.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -206,7 +225,8 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 | 3 | [Stakeholder Register](docs/03-stakeholder-register.md) | Pemangku kepentingan, matriks, rencana komunikasi | Chaira Syakira Lubis | Draf |
 | 4 | [WBS](docs/04-wbs.md) | Rincian pekerjaan dan pembagian tugas | Fitri Nabila Suhendra | Draf |
 | 5 | [Git dan GitHub](docs/05-git-dan-github.md) | Istilah, perintah, alur kerja, cara unggah | Semua anggota | Draf |
-| 6 | Analisis Titik Fungsi | Ukuran pekerjaan | Intan Fadila | Belum dimulai |
+| 6 | [Project Planning (Tahap 2)](docs/tahap-2-project-planning/jadwal-gantt.md) | Jadwal, resource, manday, biaya, risiko | Semua anggota | Draf |
+| 7 | Analisis Titik Fungsi | Ukuran pekerjaan | Intan Fadila | Belum dimulai |
 
 <details>
 <summary><b>📁 Isi repositori</b></summary>
@@ -219,12 +239,20 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 │   ├── divider.svg
 │   ├── team.svg
 │   └── levels.svg
+├── index.html
 └── docs/
     ├── 01-latar-belakang-dan-ide-proyek.md
     ├── 02-project-charter.md
     ├── 03-stakeholder-register.md
     ├── 04-wbs.md
-    └── 05-git-dan-github.md
+    ├── 05-git-dan-github.md
+    └── tahap-2-project-planning/
+        ├── jadwal-gantt.md
+        ├── resource-plan.md
+        ├── effort-manday.md
+        ├── estimasi-biaya.md
+        ├── risk-register.md
+        └── Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx
 ```
 
 </details>

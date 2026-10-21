@@ -46,7 +46,7 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 | Batasan | Biaya proyek tidak boleh membebani Kak Linda. Besar anggaran [ISI] |
 | Asumsi | Kak Linda bersedia diwawancarai dan mencoba hasil proyek |
 | Asumsi | Kak Linda atau pembantunya punya HP yang bisa dipakai |
-| Asumsi | Tenggat Tahap 1: 4 November 2026. Tenggat akhir: 20 Januari 2027. Keduanya **asumsi kelompok**, ganti jika berbeda. |
+| Asumsi | Tenggat Tahap 2: 24 Oktober 2026. Tenggat akhir: 18 Desember 2026. Keduanya **asumsi kelompok**, ganti jika berbeda. Jadwal rinci ada di [Jadwal Gantt](tahap-2-project-planning/jadwal-gantt.md). |
 
 ## 4. Kriteria Keberhasilan
 
@@ -71,10 +71,10 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 
 | Kode | Tonggak | Tanggal target |
 |---|---|---|
-| T1 | Dokumen awal di GitHub selesai | 4 November 2026 |
-| T2 | Analisis kebutuhan dan perancangan selesai | 2 Desember 2026 |
-| T3 | Pengembangan dan pengujian selesai | 6 Januari 2027 |
-| T4 | Dokumentasi dan penyerahan akhir | 20 Januari 2027 |
+| T1 | Dokumen awal dan perencanaan (Tahap 2) dikumpulkan | 24 Oktober 2026 |
+| T2 | Analisis kebutuhan dan perancangan selesai | 13 November 2026 |
+| T3 | Pengembangan dan pengujian selesai | 4 Desember 2026 |
+| T4 | Dokumentasi dan penyerahan akhir | 18 Desember 2026 |
 
 ## 7. Persetujuan
 
