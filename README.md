@@ -1,88 +1,246 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Digital Twin UMKM Bakso Goreng Kak Linda" width="100%">
+<img src="assets/banner.svg" alt="Digital Twin UMKM Bakso Goreng Kak Linda - Kelompok 12" width="100%">
 
-<a href="docs/01-latar-belakang-dan-ide-proyek.md"><img src="assets/btn-latar.svg" alt="Latar Belakang"></a>
-<a href="docs/02-project-charter.md"><img src="assets/btn-charter.svg" alt="Project Charter"></a>
-<a href="docs/03-stakeholder-register.md"><img src="assets/btn-stakeholder.svg" alt="Stakeholder"></a>
-<a href="docs/04-wbs.md"><img src="assets/btn-wbs.svg" alt="WBS"></a>
-<a href="docs/05-git-dan-github.md"><img src="assets/btn-git.svg" alt="Git dan GitHub"></a>
+<br>
+
+[![Tentang](https://img.shields.io/badge/TENTANG-b32a1a?style=for-the-badge)](#tentang)
+[![Tim](https://img.shields.io/badge/TIM-c0392b?style=for-the-badge)](#tim)
+[![Tahap](https://img.shields.io/badge/TAHAP-d9822b?style=for-the-badge)](#tahap)
+[![Jadwal](https://img.shields.io/badge/JADWAL-e09a1f?style=for-the-badge)](#jadwal)
+[![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
+[![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
+
+![Status](https://img.shields.io/badge/status-tahap%20perencanaan-e09a1f?style=flat-square)
+![Kelompok](https://img.shields.io/badge/kelompok-12-c0392b?style=flat-square)
+![Prodi](https://img.shields.io/badge/Informatika-Universitas%20Samudra-7a3d0c?style=flat-square)
+![Matkul](https://img.shields.io/badge/MPPL-Manajemen%20Proyek%20Perangkat%20Lunak-b8680f?style=flat-square)
+
+**Merencanakan model digital sederhana untuk usaha Kak Linda: pesanan, stok, dan penjualan tahu bakso, tempe, sosis, dan bakso goreng.**
 
 </div>
 
-<img src="assets/divider.svg" alt="" width="100%">
+<img src="assets/divider.svg" width="100%" alt="">
 
-## Pengembangan Digital Twin UMKM Bakso Goreng Kak Linda
+<a id="tentang"></a>
+## 🍢 Tentang Proyek
 
-Tugas mata kuliah **Manajemen Proyek Perangkat Lunak**
-Informatika, Universitas Samudra | Dosen: **Cut Alna** | **Kelompok 12**
+> 🎯 **TUJUAN:** merencanakan digital twin sederhana supaya pesanan di usaha Kak Linda tidak lagi terlupa dan datanya lebih rapi.
+> 🧑‍🍳 **TIM:** Kelompok 12, 4 orang.
+> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal sudah berupa draf, tahap 2 (jadwal, manday, biaya, risiko) sedang disiapkan.
 
-<details open>
-<summary><b>🍢 Tim</b></summary>
+Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng. Pesanan masuk secara langsung, pencatatan memakai buku, dan kesulitan yang dirasakan adalah pesanan sering lupa.
 
-| No | Nama | NIM | Username GitHub | Peran |
-|---|---|---|---|---|
+Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, dan penjualan. Website pemesanan direncanakan menjadi salah satu jalur masuk pesanan.
+
+| Kondisi | Kebutuhan | Solusi yang direncanakan |
+|---|---|---|
+| Pesanan masuk langsung, dicatat di buku, pesanan sering lupa | Pesanan, stok, dan penjualan tercatat jelas | Model digital usaha dengan website pemesanan sebagai salah satu jalur pesanan |
+
+<details>
+<summary><b>🧺 Produk Kak Linda (klik untuk membuka)</b></summary>
+
+<br>
+
+| Produk | Keterangan |
+|---|---|
+| Tahu bakso | Dijual saat ini |
+| Tempe | Dijual saat ini |
+| Sosis | Dijual saat ini |
+| Bakso goreng | Dijual saat ini |
+| Harga dan data lain | [ISI dari wawancara lanjutan] |
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="tim"></a>
+## 👥 Tim Kelompok 12
+
+<div align="center">
+<img src="assets/team.svg" alt="Kartu anggota: Intan Fadila, Fitri Nabila Suhendra, Chaira Syakira Lubis, Siti Najri Apriyanti" width="100%">
+</div>
+
+| No | Nama | NIM | GitHub | Peran utama |
+|:-:|---|---|---|---|
 | 1 | Intan Fadila | [ISI] | [ISI] | Analisis Titik Fungsi |
 | 2 | Fitri Nabila Suhendra | [ISI] | [ISI] | WBS |
 | 3 | Chaira Syakira Lubis | [ISI] | [ISI] | Pendaftaran Pemangku Kepentingan |
 | 4 | Siti Najri Apriyanti | [ISI] | [ISI] | Piagam Proyek |
 
-Ketua kelompok: [ISI]
+**Ketua kelompok:** [ISI]
+**Program studi:** Informatika | **Universitas:** Universitas Samudra
+**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna
 
-</details>
+<img src="assets/divider.svg" width="100%" alt="">
 
-<details open>
-<summary><b>🔥 Ringkasan Proyek</b></summary>
+<a id="tahap"></a>
+## 🔥 Tusuk Progres
 
-Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng. Pesanan masuk langsung, pencatatan memakai buku, dan kesulitan yang dirasakan adalah pesanan sering lupa.
+<div align="center">
+<img src="assets/levels.svg" alt="Tusuk progres: tahap 1 selesai sebagai draf, tahap 2 sedang berjalan" width="100%">
+</div>
 
-Proyek ini **merencanakan** model digital sederhana (digital twin) yang memuat pesanan, stok, dan penjualan. Website pemesanan direncanakan menjadi salah satu jalur masuk pesanan. Saat ini proyek masih di **tahap perencanaan**.
+Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
+
+<details>
+<summary><b>1 · Inisiasi</b> &nbsp; ✅ selesai (draf)</summary>
+
+<br>
+
+- **1.1** Wawancara dan observasi
+- **1.2** Latar belakang dan ide
+- **1.3** Project Charter
+- **1.4** Stakeholder Register
+
+📄 [Latar Belakang dan Ide](docs/01-latar-belakang-dan-ide-proyek.md) · [Project Charter](docs/02-project-charter.md) · [Stakeholder Register](docs/03-stakeholder-register.md)
+🧑‍🍳 Penanggung jawab: Siti Najri Apriyanti, Chaira Syakira Lubis, semua anggota (1.1)
 
 </details>
 
 <details>
-<summary><b>📄 Daftar Dokumen</b></summary>
+<summary><b>2 · Perencanaan</b> &nbsp; 🔥 sedang berjalan</summary>
 
-| No | Dokumen | Isi | Penanggung jawab |
-|---|---|---|---|
-| 1 | [Latar Belakang dan Ide Proyek](docs/01-latar-belakang-dan-ide-proyek.md) | Latar belakang, wawancara, masalah, alternatif ide, tujuan | Siti Najri Apriyanti |
-| 2 | [Project Charter](docs/02-project-charter.md) | Piagam proyek, risiko awal, tonggak | Siti Najri Apriyanti |
-| 3 | [Stakeholder Register](docs/03-stakeholder-register.md) | Pemangku kepentingan, matriks, rencana komunikasi | Chaira Syakira Lubis |
-| 4 | [WBS](docs/04-wbs.md) | Rincian pekerjaan dan pembagian tugas | Fitri Nabila Suhendra |
-| 5 | [Git dan GitHub](docs/05-git-dan-github.md) | Istilah, perintah, alur kerja, cara unggah | Semua anggota |
+<br>
 
-</details>
+- **2.1** WBS (draf selesai)
+- **2.2** Jadwal dan manday
+- **2.3** Biaya dan risiko
+- **2.4** Persiapan GitHub (draf selesai)
 
-<details>
-<summary><b>📊 Status Progres</b></summary>
-
-| Dokumen | Status |
-|---|---|
-| Latar belakang dan ide | Draf awal, data wawancara masih [ISI] |
-| Project Charter | Draf awal, menunggu persetujuan |
-| Stakeholder Register | Draf awal |
-| WBS | Draf awal |
-| Git dan GitHub | Draf awal |
-| Analisis Titik Fungsi | Belum dimulai |
-| Project Planning (jadwal, biaya, risiko) | Belum dimulai |
-
-Tonggak (asumsi): Tahap 1 pada 4 November 2026, penyerahan akhir pada 20 Januari 2027.
+📄 [WBS](docs/04-wbs.md) · [Git dan GitHub](docs/05-git-dan-github.md)
+🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Chaira Syakira Lubis, semua anggota (2.4)
 
 </details>
 
 <details>
-<summary><b>🤝 Cara Kerja Tim</b></summary>
+<summary><b>3 · Analisis Kebutuhan</b> &nbsp; 🔒 belum dimulai</summary>
+
+<br>
+
+- **3.1** Daftar kebutuhan
+- **3.2** Analisis Titik Fungsi
+- **3.3** Validasi dengan Kak Linda
+
+🧑‍🍳 Penanggung jawab: Chaira Syakira Lubis, Intan Fadila
+
+</details>
+
+<details>
+<summary><b>4 · Perancangan</b> &nbsp; 🔒 belum dimulai</summary>
+
+<br>
+
+- **4.1** Alur proses usaha
+- **4.2** Rancangan data
+- **4.3** Rancangan tampilan
+
+🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Intan Fadila, Siti Najri Apriyanti
+
+</details>
+
+<details>
+<summary><b>5 · Pengembangan</b> &nbsp; 🔒 belum dimulai</summary>
+
+<br>
+
+- **5.1** Pencatatan pesanan
+- **5.2** Pencatatan stok
+- **5.3** Penjualan dan ringkasan
+- **5.4** Website pemesanan
+
+🧑‍🍳 Penanggung jawab: Intan Fadila, Fitri Nabila Suhendra, Chaira Syakira Lubis, Siti Najri Apriyanti
+
+</details>
+
+<details>
+<summary><b>6 · Pengujian</b> &nbsp; 🔒 belum dimulai</summary>
+
+<br>
+
+- **6.1** Rencana uji
+- **6.2** Pelaksanaan uji
+- **6.3** Uji dengan Kak Linda
+- **6.4** Perbaikan
+
+🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Chaira Syakira Lubis, Intan Fadila, semua anggota (6.2)
+
+</details>
+
+<details>
+<summary><b>7 · Dokumentasi</b> &nbsp; 🔒 belum dimulai</summary>
+
+<br>
+
+- **7.1** Panduan pengguna
+- **7.2** Laporan akhir
+- **7.3** Bahan presentasi
+- **7.4** Arsip repositori
+
+🧑‍🍳 Penanggung jawab: Siti Najri Apriyanti, Fitri Nabila Suhendra, Chaira Syakira Lubis, Intan Fadila
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="jadwal"></a>
+## 📅 Jadwal
+
+| Tonggak | Target | Status |
+|---|---|---|
+| T1 · Dokumen awal di GitHub | 4 November 2026 | Draf awal |
+| T2 · Analisis kebutuhan dan perancangan | 2 Desember 2026 | Belum dimulai |
+| T3 · Pengembangan dan pengujian | 6 Januari 2027 | Belum dimulai |
+| T4 · Dokumentasi dan penyerahan akhir | 20 Januari 2027 | Belum dimulai |
+
+> Tanggal di atas adalah **asumsi kelompok**. Sesuaikan dengan tenggat resmi dari dosen. [ISI tenggat resmi Tahap 2]
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="dokumen"></a>
+## 📄 Dokumen
+
+| No | Dokumen | Isi | Penanggung jawab | Status |
+|:-:|---|---|---|---|
+| 1 | [Latar Belakang dan Ide Proyek](docs/01-latar-belakang-dan-ide-proyek.md) | Latar belakang, wawancara, masalah, alternatif ide, tujuan | Siti Najri Apriyanti | Draf |
+| 2 | [Project Charter](docs/02-project-charter.md) | Piagam proyek, risiko awal, tonggak | Siti Najri Apriyanti | Draf |
+| 3 | [Stakeholder Register](docs/03-stakeholder-register.md) | Pemangku kepentingan, matriks, rencana komunikasi | Chaira Syakira Lubis | Draf |
+| 4 | [WBS](docs/04-wbs.md) | Rincian pekerjaan dan pembagian tugas | Fitri Nabila Suhendra | Draf |
+| 5 | [Git dan GitHub](docs/05-git-dan-github.md) | Istilah, perintah, alur kerja, cara unggah | Semua anggota | Draf |
+| 6 | Analisis Titik Fungsi | Ukuran pekerjaan | Intan Fadila | Belum dimulai |
+
+<details>
+<summary><b>📁 Isi repositori</b></summary>
+
+```text
+.
+├── README.md
+├── assets/
+│   ├── banner.svg
+│   ├── divider.svg
+│   ├── team.svg
+│   └── levels.svg
+└── docs/
+    ├── 01-latar-belakang-dan-ide-proyek.md
+    ├── 02-project-charter.md
+    ├── 03-stakeholder-register.md
+    ├── 04-wbs.md
+    └── 05-git-dan-github.md
+```
+
+</details>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="cara-kerja"></a>
+## 🤝 Cara Kerja Tim
 
 1. Ambil pembaruan terbaru: `git pull origin main`.
 2. Buat branch per tugas, contoh `wbs-fitri`.
-3. Commit dengan pesan jelas, lalu push.
+3. Commit dengan pesan jelas, lalu `git push`.
 4. Buka Pull Request, minta satu anggota lain memeriksa.
-5. Catat tugas di Issues dengan kode WBS.
+5. Catat tugas di Issues dengan kode WBS, contoh `[2.1] Susun WBS`.
 
 Aturan lengkap ada di [Git dan GitHub](docs/05-git-dan-github.md).
-
-</details>
-
-<img src="assets/divider.svg" alt="" width="100%">
 
 <div align="center"><sub>Kelompok 12 • Informatika • Universitas Samudra</sub></div>
