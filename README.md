@@ -68,9 +68,8 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 | 3 | Chaira Syakira Lubis | [230504064] | [narashaa] | Pendaftaran Pemangku Kepentingan |
 | 4 | Siti Najri Apriyanti | [230504073] | [stnajriapriyanti-dot] | Piagam Proyek |
 
-**Ketua kelompok:** [ISI]
 **Program studi:** Informatika | **Universitas:** Universitas Samudra
-**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna
+**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna Fadila
 
 <img src="assets/divider.svg" width="100%" alt="">
 
