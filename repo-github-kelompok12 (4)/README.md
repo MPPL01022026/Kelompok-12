@@ -66,7 +66,7 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 | No | Nama | NIM | GitHub | Peran utama |
 |:-:|---|---|---|---|
 | 1 | Intan Fadila | 230504074 | [intanfadila-ui](https://github.com/intanfadila-ui) | Analisis Titik Fungsi |
-| 2 | Fitri Nabila Suhendra | 230504056 | [fitrinabila-gif](https://github.com/fitrinabila-gif) | WBS |
+| 2 | Fitri Nabilah Suhendra | 230504056 | [fitrinabila-gif](https://github.com/fitrinabila-gif) | WBS |
 | 3 | Chaira Syakira Lubis | 230504064 | [narashaa](https://github.com/narashaa) | Pendaftaran Pemangku Kepentingan |
 | 4 | Siti Najri Apriyanti | 230504073 | [stnajriapriyanti-dot](https://github.com/stnajriapriyanti-dot) | Piagam Proyek |
 
