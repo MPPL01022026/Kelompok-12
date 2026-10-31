@@ -56,11 +56,11 @@
 2. Pilih **Collaborators** (di beberapa tampilan: **Collaborators and teams**).
 3. Klik **Add people**, lalu masukkan username GitHub atau email anggota.
 4. Anggota menerima undangan lewat email atau notifikasi GitHub, lalu menerimanya.
-5. Tambahkan juga dosen (Cut Alna) bila diminta, dengan username yang diberikan dosen. [ISI]
+5. Tambahkan juga dosen (Cut Alna Fadhilla, S.Kom., M.Sc.) bila diminta, dengan username yang diberikan dosen. [ISI]
 
 ## 6. Mengunggah Repositori
 
-**Cara lewat terminal** (dilakukan satu anggota, misalnya ketua):
+**Cara lewat terminal** (dilakukan satu anggota yang disepakati bersama):
 
 ```bash
 cd nama-folder-repositori

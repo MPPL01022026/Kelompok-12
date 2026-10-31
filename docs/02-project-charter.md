@@ -1,6 +1,6 @@
 # 02 - Project Charter (Piagam Proyek)
 
-Dokumen ini merangkum arah proyek berdasarkan [latar belakang dan ide proyek](01-latar-belakang-dan-ide-proyek.md).
+Dokumen ini merangkum arah proyek berdasarkan [latar belakang dan ide proyek](01-latar-belakang-dan-ide-proyek.md).  
 Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri Apriyanti.
 
 ## 1. Informasi Utama
@@ -10,10 +10,10 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 | Nama proyek | Pengembangan Digital Twin UMKM Bakso Goreng Kak Linda |
 | Studi kasus | Usaha gorengan bakso milik Kak Linda (tahu bakso, tempe, sosis, bakso) |
 | Mata kuliah | Manajemen Proyek Perangkat Lunak, Informatika, Universitas Samudra |
-| Dosen | Cut Alna |
+| Dosen | Cut Alna Fadhilla, S.Kom., M.Sc. |
 | Kelompok | 12 (4 anggota, lihat [README](../README.md)) |
-| Ketua proyek | [ISI] |
-| Latar belakang | Pesanan masuk langsung dan dicatat di buku. Kak Linda merasa pesanan sering lupa. |
+| Pengelola proyek | Seluruh anggota, tanpa ketua. Keputusan diambil bersama. |
+| Latar belakang | Pesanan masuk langsung, penjualan dan keuangan dicatat di buku, stok dicek saat penjualan habis. Penjualan sekitar Rp 700.000 per hari dengan harga produk sekitar Rp 1.000 sampai Rp 2.000. Pesanan sering lupa dan pembeli kurang berkenan. |
 | Permasalahan | Pesanan sering lupa. Catatan stok, penjualan, dan keuangan di buku dinilai sulit dilihat ringkasannya (masih dugaan, perlu konfirmasi). |
 | Tujuan | Merencanakan digital twin sederhana agar pesanan, stok, dan penjualan lebih tertata. |
 | Solusi (direncanakan) | Model digital usaha yang memuat pesanan, stok, dan penjualan. Website pemesanan direncanakan menjadi salah satu jalur masuk pesanan. |
@@ -45,8 +45,8 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 | Batasan | Data usaha bergantung pada keterbukaan dan waktu Kak Linda |
 | Batasan | Biaya proyek tidak boleh membebani Kak Linda. Besar anggaran [ISI] |
 | Asumsi | Kak Linda bersedia diwawancarai dan mencoba hasil proyek |
-| Asumsi | Kak Linda atau pembantunya punya HP yang bisa dipakai |
-| Asumsi | Tenggat Tahap 2: 24 Oktober 2026. Tenggat akhir: 18 Desember 2026. Keduanya **asumsi kelompok**, ganti jika berbeda. Jadwal rinci ada di [Jadwal Gantt](tahap-2-project-planning/jadwal-gantt.md). |
+| Asumsi | Kak Linda memakai HP yang bisa dipakai untuk aplikasi |
+| Asumsi | Tenggat resmi: Tahap 2 pada 24 Oktober 2026, Tahap 3 pada 10 November 2026, Tahap 4 dan 5 pada 1 Desember 2026. Tanggal mulai (30 September 2026) adalah asumsi. Jadwal rinci ada di [Jadwal Gantt](tahap-2-project-planning/jadwal-gantt.md). |
 
 ## 4. Kriteria Keberhasilan
 
@@ -63,8 +63,8 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 |---|---|---|---|
 | R1 | Data wawancara terbatas | Kebutuhan salah dipahami | Wawancara lanjutan |
 | R2 | Kak Linda sulit ditemui | Validasi terlambat | Jadwalkan pertemuan sejak awal |
-| R3 | Kak Linda belum terbiasa memakai perangkat digital | Hasil tidak dipakai | Rancangan sederhana, uji coba bersama |
-| R4 | Arti "digital twin" belum disepakati dengan dosen | Ruang lingkup bergeser | Konsultasi dengan Cut Alna |
+| R3 | Kak Linda belum memahami aplikasi dan mengikuti usulan kelompok | Hasil tidak dipakai | Rancangan sangat sederhana, demo langsung di HP |
+| R4 | Arti "digital twin" belum disepakati dengan dosen | Ruang lingkup bergeser | Konsultasi dengan Cut Alna Fadhilla, S.Kom., M.Sc. |
 | R5 | Anggota sedikit | Beban tugas berat | Pembagian tugas jelas di [WBS](04-wbs.md) |
 
 ## 6. Tonggak (Usulan)
@@ -72,16 +72,16 @@ Status: **draf awal**, tahap perencanaan. Penanggung jawab dokumen: Siti Najri A
 | Kode | Tonggak | Tanggal target |
 |---|---|---|
 | T1 | Dokumen awal dan perencanaan (Tahap 2) dikumpulkan | 24 Oktober 2026 |
-| T2 | Analisis kebutuhan dan perancangan selesai | 13 November 2026 |
-| T3 | Pengembangan dan pengujian selesai | 4 Desember 2026 |
-| T4 | Dokumentasi dan penyerahan akhir | 18 Desember 2026 |
+| T2 | Project Execution (Tahap 3) dikumpulkan | 10 November 2026 |
+| T3 | Pengembangan dan pengujian selesai (target) | 27 November 2026 |
+| T4 | Monitoring dan Closure (Tahap 4 dan 5) dikumpulkan | 1 Desember 2026 |
 
 ## 7. Persetujuan
 
 | Pihak | Nama | Tanggal | Tanda tangan |
 |---|---|---|---|
 | Pemilik usaha | Kak Linda | [ISI] | [ISI] |
-| Dosen | Cut Alna | [ISI] | [ISI] |
-| Ketua kelompok | [ISI] | [ISI] | [ISI] |
+| Dosen | Cut Alna Fadhilla, S.Kom., M.Sc. | [ISI] | [ISI] |
+| Perwakilan kelompok | Seluruh anggota | [ISI] | [ISI] |
 
 Lanjut ke [Stakeholder Register](03-stakeholder-register.md).

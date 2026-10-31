@@ -1,6 +1,6 @@
 # 04 - Work Breakdown Structure (WBS)
 
-Penanggung jawab dokumen: Fitri Nabila Suhendra.
+Penanggung jawab dokumen: Fitri Nabila Suhendra.  
 WBS dibuat dari [Project Charter](02-project-charter.md). Seluruh isi masih **rencana** dan bisa berubah setelah wawancara lanjutan.
 
 ## 1. Diagram WBS

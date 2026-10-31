@@ -1,9 +1,9 @@
 # 01 - Latar Belakang dan Ide Proyek
 
-**Proyek:** Pengembangan Digital Twin UMKM Bakso Goreng Kak Linda
-**Mata kuliah:** Manajemen Proyek Perangkat Lunak
-**Program studi:** Informatika, Universitas Samudra
-**Dosen:** Cut Alna
+**Proyek:** Pengembangan Digital Twin UMKM Bakso Goreng Kak Linda  
+**Mata kuliah:** Manajemen Proyek Perangkat Lunak  
+**Program studi:** Informatika, Universitas Samudra  
+**Dosen:** Cut Alna Fadhilla, S.Kom., M.Sc.  
 **Kelompok:** 12
 
 > Status: tahap perencanaan. Semua yang tertulis sebagai solusi masih **direncanakan**, belum dibuat.
@@ -30,26 +30,30 @@ Judul proyek memakai istilah *digital twin*. Dalam proyek ini, istilah tersebut 
 | Aspek | Hasil | Keterangan |
 |---|---|---|
 | Narasumber | Kak Linda (pemilik usaha) | |
-| Tanggal wawancara | [ISI tanggal] | |
-| Produk yang dijual | Tahu bakso, tempe, sosis, bakso | Sesuai data dari kelompok |
-| Cara pesanan masuk | Langsung | Detail (lisan/tatap muka/titip) [ISI] |
-| Cara mencatat stok | Buku | Format catatan [ISI] |
-| Cara mencatat penjualan | Buku | Frekuensi pencatatan [ISI] |
-| Cara mencatat keuangan | Buku | Pemisahan uang usaha dan pribadi [ISI] |
-| Kesulitan utama | Pesanan lupa | Seberapa sering dan akibatnya [ISI] |
-| Perkiraan penjualan per hari | [ISI] | |
-| Waktu ramai / sepi | [ISI] | |
+| Tanggal wawancara | 30 September 2026 | Hadir: Intan Fadila, Fitri Nabila Suhendra, dan Chaira Syakira Lubis (Kira) |
+| Produk yang dijual | Tahu bakso, tempe, sosis, bakso | |
+| Cara pesanan masuk | Langsung | |
+| Cara mencatat stok | Dicek saat penjualan sudah habis | Pengecekan bahan, bukan pencatatan rutin |
+| Cara mencatat penjualan dan keuangan | Buku | |
+| Kesulitan utama | Pesanan lupa | Akibatnya pembeli kurang berkenan |
+| Seberapa sering pesanan lupa | Tidak diketahui | Perlu data lanjutan |
+| Perkiraan penjualan per hari | Sekitar Rp 700.000 | Per produk [ISI] |
+| Harga produk | Sekitar Rp 1.000 sampai Rp 2.000 | Harga tepat per produk [ISI] |
+| Pembantu usaha | Tidak ada | Dikerjakan sendiri |
+| Perangkat yang dipakai | HP | Ketersediaan internet [ISI] |
+| Harapan Kak Linda terhadap sistem | Tidak menyebut harapan khusus, mengikuti usulan kelompok | Kelompok menangkap kebutuhan: pemesanan mudah dan tidak lupa |
+| Waktu ramai atau sepi | [ISI] | |
 | Cara menentukan jumlah produksi | [ISI] | |
-| Perangkat yang dipakai (HP, internet) | [ISI] | |
-| Harapan Kak Linda terhadap sistem | [ISI] | |
+
+Data wawancara 30 September sudah dipakai di [Daftar Kebutuhan](06-daftar-kebutuhan.md).
 
 **Pertanyaan lanjutan untuk wawancara berikutnya:**
 
 1. Berapa kali dalam seminggu pesanan terlupa, dan apa yang terjadi saat itu (pelanggan kecewa, produk tidak dibuat, dan sebagainya)?
-2. Siapa saja yang membantu usaha ini, dan apakah mereka ikut menerima pesanan?
-3. Bagaimana Kak Linda tahu stok bahan hampir habis?
+2. Berapa harga tepat tiap produk dan berapa penjualan per produk per hari?
+3. Jam berapa paling ramai dan bagaimana menentukan jumlah yang dibuat?
 4. Apakah ada pelanggan tetap atau pesanan dalam jumlah besar (acara, titipan warung)?
-5. Apakah Kak Linda sudah memakai WhatsApp atau media sosial untuk usahanya?
+5. Apakah ada internet di tempat usaha dan apakah Kak Linda memakai WhatsApp?
 6. Bagian mana dari usaha yang paling ingin dibantu lebih dulu?
 
 ---
@@ -58,9 +62,9 @@ Judul proyek memakai istilah *digital twin*. Dalam proyek ini, istilah tersebut 
 
 | Kode | Masalah | Dasar | Status data |
 |---|---|---|---|
-| M1 | Pesanan sering lupa | Disampaikan langsung oleh Kak Linda | Fakta wawancara |
-| M2 | Pesanan masuk secara langsung, sehingga belum ada catatan pesanan yang jelas sejak awal | Dari cara pesanan masuk | Perlu dikonfirmasi |
-| M3 | Stok, penjualan, dan keuangan dicatat di buku, sehingga sulit dilihat ringkasannya | Dari cara pencatatan | Perlu dikonfirmasi |
+| M1 | Pesanan sering lupa, akibatnya pembeli kurang berkenan | Disampaikan langsung oleh Kak Linda | Fakta wawancara |
+| M2 | Pesanan masuk secara langsung, sehingga belum ada catatan pesanan yang jelas sejak awal | Dari cara pesanan masuk | Dugaan, perlu dikonfirmasi |
+| M3 | Stok baru dicek saat penjualan sudah habis, dan penjualan serta keuangan hanya di buku | Disampaikan Kak Linda | Fakta wawancara, dampaknya perlu dikonfirmasi |
 | M4 | [ISI masalah lain dari wawancara lanjutan] | | |
 
 M1 adalah satu-satunya masalah yang sudah disebut langsung oleh narasumber. M2 dan M3 adalah dugaan kelompok dari cara kerja yang diceritakan, jadi perlu dicek lagi ke Kak Linda.
@@ -102,7 +106,7 @@ Keputusan ini masih bisa berubah setelah wawancara lanjutan dan masukan dosen. `
 
 ## 5. Tujuan
 
-**Tujuan umum**
+**Tujuan umum**  
 Merencanakan pengembangan digital twin sederhana untuk usaha bakso goreng Kak Linda agar pesanan, stok, dan penjualan lebih tertata.
 
 **Tujuan khusus**
@@ -132,5 +136,6 @@ Dari latar belakang dan ide di atas, perencanaan dilanjutkan ke:
 2. [Stakeholder Register](03-stakeholder-register.md)
 3. [WBS](04-wbs.md)
 4. [Pemahaman Git dan GitHub](05-git-dan-github.md)
+5. [Daftar Kebutuhan](06-daftar-kebutuhan.md), [Alur Proses](07-alur-proses.md), [Rancangan Tampilan](08-rancangan-tampilan.md)
 
 Kembali ke [README](../README.md).

@@ -9,6 +9,7 @@
 [![Tahap](https://img.shields.io/badge/TAHAP-d9822b?style=for-the-badge)](#tahap)
 [![Jadwal](https://img.shields.io/badge/JADWAL-e09a1f?style=for-the-badge)](#jadwal)
 [![Tahap 2](https://img.shields.io/badge/PROJECT%20PLANNING-a8450f?style=for-the-badge)](#planning)
+[![Tahap 3](https://img.shields.io/badge/EXECUTION-8a4510?style=for-the-badge)](#execution)
 [![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
 [![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
 
@@ -28,7 +29,7 @@
 
 > 🎯 **TUJUAN:** merencanakan digital twin sederhana supaya pesanan di usaha Kak Linda tidak lagi terlupa dan datanya lebih rapi.
 > 🧑‍🍳 **TIM:** Kelompok 12, 4 orang.
-> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal dan Tahap 2 (jadwal, manday, biaya, risiko) sudah berupa draf. Berikutnya analisis kebutuhan.
+> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal, Tahap 2 (jadwal, manday, biaya, risiko), dan Tahap 3 (laporan eksekusi dan prototipe awal) sudah berupa draf. Bukti commit GitHub dan keputusan rapat masih perlu dilengkapi kelompok.
 
 Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng. Pesanan masuk secara langsung, pencatatan memakai buku, dan kesulitan yang dirasakan adalah pesanan sering lupa.
 
@@ -49,7 +50,7 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 | Tempe | Dijual saat ini |
 | Sosis | Dijual saat ini |
 | Bakso goreng | Dijual saat ini |
-| Harga dan data lain | [ISI dari wawancara lanjutan] |
+| Harga tepat per produk dan data lain | [ISI dari wawancara lanjutan] |
 
 </details>
 
@@ -64,24 +65,25 @@ Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, da
 
 | No | Nama | NIM | GitHub | Peran utama |
 |:-:|---|---|---|---|
-| 1 | Intan Fadila | 230504074 | intanfadila-ui | Analisis Titik Fungsi |
-| 2 | Fitri Nabila Suhendra | 230504056 | fitrinabila-gif | WBS |
-| 3 | Chaira Syakira Lubis | 230504064 | narashaa | Pendaftaran Pemangku Kepentingan |
-| 4 | Siti Najri Apriyanti | 230504073 | stnajriapriyanti-dot | Piagam Proyek |
+| 1 | Intan Fadila | 230504074 | [intanfadila-ui](https://github.com/intanfadila-ui) | Analisis Titik Fungsi |
+| 2 | Fitri Nabila Suhendra | 230504056 | [fitrinabila-gif](https://github.com/fitrinabila-gif) | WBS |
+| 3 | Chaira Syakira Lubis | 230504064 | [narashaa](https://github.com/narashaa) | Pendaftaran Pemangku Kepentingan |
+| 4 | Siti Najri Apriyanti | 230504073 | [stnajriapriyanti-dot](https://github.com/stnajriapriyanti-dot) | Piagam Proyek |
 
-**Program studi:** Informatika | **Universitas:** Universitas Samudra
-**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna Fadhilla, S.Kom., M.Sc
+Kelompok bekerja tanpa ketua. Keputusan diambil bersama dalam rapat.  
+**Program studi:** Informatika | **Universitas:** Universitas Samudra  
+**Mata kuliah:** Manajemen Proyek Perangkat Lunak | **Dosen:** Cut Alna Fadhilla, S.Kom., M.Sc.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
 <a id="tahap"></a>
-## 🔥 Tusuk Progres
+## 🔥 Tusuk Progres Fase WBS
 
 <div align="center">
 <img src="assets/levels.svg" alt="Tusuk progres: tahap 1 dan 2 selesai sebagai draf, tahap 3 berikutnya" width="100%">
 </div>
 
-Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
+Tusuk ini menunjukkan **tujuh fase pekerjaan di WBS**, bukan tahap tugas kuliah. Status tugas kuliah (Tahap 2 Project Planning dan Tahap 3 Project Execution) ada di bagian Project Planning dan Project Execution di bawah. Klik tiap fase untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 
 <details>
 <summary><b>1 · Inisiasi</b> &nbsp; ✅ selesai (draf)</summary>
@@ -93,7 +95,7 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 - **1.3** Project Charter
 - **1.4** Stakeholder Register
 
-📄 [Latar Belakang dan Ide](docs/01-latar-belakang-dan-ide-proyek.md) · [Project Charter](docs/02-project-charter.md) · [Stakeholder Register](docs/03-stakeholder-register.md)
+📄 [Latar Belakang dan Ide](docs/01-latar-belakang-dan-ide-proyek.md) · [Project Charter](docs/02-project-charter.md) · [Stakeholder Register](docs/03-stakeholder-register.md)  
 🧑‍🍳 Penanggung jawab: Siti Najri Apriyanti, Chaira Syakira Lubis, semua anggota (1.1)
 
 </details>
@@ -108,17 +110,17 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 - **2.3** Biaya dan risiko
 - **2.4** Persiapan GitHub
 
-📄 [WBS](docs/04-wbs.md) · [Git dan GitHub](docs/05-git-dan-github.md) · [Jadwal Gantt](docs/tahap-2-project-planning/jadwal-gantt.md) · [Manday](docs/tahap-2-project-planning/effort-manday.md) · [Biaya](docs/tahap-2-project-planning/estimasi-biaya.md) · [Risiko](docs/tahap-2-project-planning/risk-register.md)
+📄 [WBS](docs/04-wbs.md) · [Git dan GitHub](docs/05-git-dan-github.md) · [Jadwal Gantt](docs/tahap-2-project-planning/jadwal-gantt.md) · [Manday](docs/tahap-2-project-planning/effort-manday.md) · [Biaya](docs/tahap-2-project-planning/estimasi-biaya.md) · [Risiko](docs/tahap-2-project-planning/risk-register.md)  
 🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Chaira Syakira Lubis, semua anggota (2.4)
 
 </details>
 
 <details>
-<summary><b>3 · Analisis Kebutuhan</b> &nbsp; 🔥 berikutnya</summary>
+<summary><b>3 · Analisis Kebutuhan</b> &nbsp; 🔥 sedang berjalan (3.1 selesai, 3.2 dan 3.3 belum)</summary>
 
 <br>
 
-- **3.1** Daftar kebutuhan
+- **3.1** Daftar kebutuhan (draf selesai, [Dokumen 06](docs/06-daftar-kebutuhan.md))
 - **3.2** Analisis Titik Fungsi
 - **3.3** Validasi dengan Kak Linda
 
@@ -127,13 +129,13 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 </details>
 
 <details>
-<summary><b>4 · Perancangan</b> &nbsp; 🔒 belum dimulai</summary>
+<summary><b>4 · Perancangan</b> &nbsp; 🔥 sedang berjalan (4.1 dan 4.3 selesai, 4.2 belum)</summary>
 
 <br>
 
-- **4.1** Alur proses usaha
+- **4.1** Alur proses usaha (draf selesai, [Dokumen 07](docs/07-alur-proses.md))
 - **4.2** Rancangan data
-- **4.3** Rancangan tampilan
+- **4.3** Rancangan tampilan (draf selesai, [Dokumen 08](docs/08-rancangan-tampilan.md))
 
 🧑‍🍳 Penanggung jawab: Fitri Nabila Suhendra, Intan Fadila, Siti Najri Apriyanti
 
@@ -186,14 +188,14 @@ Klik tiap tahap untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
 <a id="jadwal"></a>
 ## 📅 Jadwal
 
-| Tonggak | Tenggat | Pekerjaan terakhir selesai | Status |
+| Tonggak | Tenggat | Pekerjaan terakhir selesai (rencana) | Status |
 |---|---|---|---|
-| MS1 · Tahap 2 Project Planning dikumpulkan | 24 Oktober 2026 | 20 Oktober 2026 | Draf selesai |
-| MS2 · Analisis dan perancangan selesai | 13 November 2026 | 10 November 2026 | Belum dimulai |
-| MS3 · Pengembangan dan pengujian selesai | 4 Desember 2026 | 1 Desember 2026 | Belum dimulai |
-| MS4 · Tenggat akhir proyek | 18 Desember 2026 | 11 Desember 2026 | Belum dimulai |
+| MS1 · Tahap 2 Project Planning | 24 Oktober 2026 | 15 Oktober 2026 | Draf selesai |
+| MS2 · Tahap 3 Project Execution | 10 November 2026 | 4 November 2026 | Laporan disusun |
+| MS3 · Pengembangan dan pengujian selesai (target) | 27 November 2026 | 26 November 2026 | Belum dimulai |
+| MS4 · Tahap 4 dan 5 dikumpulkan | 1 Desember 2026 | 30 November 2026 | Belum dimulai |
 
-> Tanggal mulai dan tenggat adalah **asumsi kelompok**. Ganti di sheet Info pada Excel, lalu jadwal terhitung ulang. [ISI tenggat resmi]
+> Tenggat adalah tenggat resmi dari dosen. Tanggal mulai (30 September 2026, hari wawancara pertama) adalah asumsi. Cadangan waktu menuju 1 Desember tinggal 1 hari kerja.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -214,6 +216,18 @@ Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tu
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<a id="execution"></a>
+## ⚙️ Project Execution (Tahap 3)
+
+| Keluaran | Berkas |
+|---|---|
+| Laporan Project Execution (pembagian tugas, progres, catatan rapat, bukti GitHub) | [laporan-project-execution.md](docs/tahap-3-project-execution/laporan-project-execution.md) |
+| Prototipe awal v0.1 | [catat-pesanan.html](prototipe/catat-pesanan.html) |
+
+Ringkasan: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, rencana per 31 Oktober 2026 adalah 40,0%. Aktivitas 3.2 dan 3.3 tertinggal.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 <a id="dokumen"></a>
 ## 📄 Dokumen
 
@@ -225,7 +239,10 @@ Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tu
 | 4 | [WBS](docs/04-wbs.md) | Rincian pekerjaan dan pembagian tugas | Fitri Nabila Suhendra | Draf |
 | 5 | [Git dan GitHub](docs/05-git-dan-github.md) | Istilah, perintah, alur kerja, cara unggah | Semua anggota | Draf |
 | 6 | [Project Planning (Tahap 2)](docs/tahap-2-project-planning/jadwal-gantt.md) | Jadwal, resource, manday, biaya, risiko | Semua anggota | Draf |
-| 7 | Analisis Titik Fungsi | Ukuran pekerjaan | Intan Fadila | Belum dimulai |
+| 7 | [Daftar Kebutuhan](docs/06-daftar-kebutuhan.md) | Kebutuhan fungsional dan nonfungsional | Chaira Syakira Lubis | Draf |
+| 8 | [Alur Proses](docs/07-alur-proses.md) | Alur sekarang dan yang direncanakan | Fitri Nabila Suhendra | Draf |
+| 9 | [Rancangan Tampilan](docs/08-rancangan-tampilan.md) | Pilihan bentuk dan rancangan layar | Siti Najri Apriyanti | Draf |
+| 10 | Analisis Titik Fungsi | Ukuran pekerjaan | Intan Fadila | Belum dimulai |
 
 <details>
 <summary><b>📁 Isi repositori</b></summary>
@@ -239,12 +256,19 @@ Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tu
 │   ├── team.svg
 │   └── levels.svg
 ├── index.html
+├── prototipe/
+│   └── catat-pesanan.html
 └── docs/
     ├── 01-latar-belakang-dan-ide-proyek.md
     ├── 02-project-charter.md
     ├── 03-stakeholder-register.md
     ├── 04-wbs.md
     ├── 05-git-dan-github.md
+    ├── 06-daftar-kebutuhan.md
+    ├── 07-alur-proses.md
+    ├── 08-rancangan-tampilan.md
+    ├── tahap-3-project-execution/
+    │   └── laporan-project-execution.md
     └── tahap-2-project-planning/
         ├── jadwal-gantt.md
         ├── resource-plan.md

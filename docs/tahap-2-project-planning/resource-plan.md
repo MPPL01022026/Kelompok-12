@@ -9,18 +9,18 @@
 | Chaira Syakira Lubis | Pendaftaran Pemangku Kepentingan | 20.10 | 1.1, 1.4, 2.3, 2.4, 3.1, 5.3, 6.2, 6.3, 7.3 |
 | Siti Najri Apriyanti | Piagam Proyek | 17.94 | 1.1, 1.2, 1.3, 2.4, 4.3, 5.4, 6.2, 7.1 |
 
-Ketua kelompok: [ISI].
+Kelompok bekerja tanpa ketua. Keputusan diambil bersama.
 
 ## Pihak Lain
 
 | Pihak | Peran | Keterlibatan |
 |---|---|---|
 | Kak Linda | Pemilik usaha, narasumber, pengguna utama | Wawancara, validasi kebutuhan (3.3), uji coba (6.3) |
-| Cut Alna | Dosen penilai | Konsultasi dan penilaian tiap tahap |
+| Cut Alna Fadhilla, S.Kom., M.Sc. | Dosen penilai | Konsultasi dan penilaian tiap tahap |
 
 ## Matriks RACI
 
-R = mengerjakan, A = bertanggung jawab akhir, C = diajak konsultasi, I = diberi tahu. Penentuan A dapat disesuaikan ketua [ISI].
+R = mengerjakan, A = bertanggung jawab akhir, C = diajak konsultasi, I = diberi tahu.
 
 | Tahap | Intan | Fitri | Chaira | Siti | Kak Linda | Dosen |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|
