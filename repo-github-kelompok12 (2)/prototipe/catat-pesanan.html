@@ -1,0 +1,50 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Prototipe Catat Pesanan v0.1 - Bakso Goreng Kak Linda</title>
+<style>
+:root{--bg:#fff8ec;--pn:#fff;--ink:#2a1407;--mut:#7a5a3c;--ln:#ecd3a4;--g:#e09a1f;--r:#b32a1a;--d:#3b1d08}
+@media(prefers-color-scheme:dark){:root{--bg:#160a03;--pn:#2a1407;--ink:#fff3d6;--mut:#d9b27a;--ln:#5a2b0e;--d:#0e0602}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif}
+header{background:linear-gradient(135deg,#150a03,#4a210b);color:#ffd166;padding:16px;text-align:center;border-bottom:8px solid var(--r)}
+header h1{margin:0;font-size:20px}header p{margin:4px 0 0;color:#f1c27d;font-size:12px}
+main{max-width:720px;margin:0 auto;padding:14px}
+.c{background:var(--pn);border:2px solid var(--ln);border-radius:12px;padding:12px;margin-bottom:12px}
+label{display:block;font-size:12px;color:var(--mut);margin-top:8px}
+input,select,textarea,button{font:inherit;border:2px solid var(--g);border-radius:10px;padding:7px 10px;background:var(--pn);color:var(--ink);width:100%}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+button{cursor:pointer;background:var(--g);color:#2a1407;font-weight:700;width:auto}
+.add{width:100%;margin-top:12px;background:var(--r);color:#fff3d6;border-color:var(--r)}
+.o{display:flex;gap:8px;align-items:center;justify-content:space-between;border-bottom:1px dashed var(--ln);padding:8px 0;flex-wrap:wrap}
+.o b{display:block}.o small{color:var(--mut)}.bd{display:inline-block;border-radius:10px;padding:1px 9px;font-size:12px;font-weight:700}
+.Baru{background:#f8cbad}.Diproses{background:#ffe699}.Selesai{background:#c6efce}.bd{color:#2a1407}
+.x{background:transparent;color:var(--r);border-color:var(--r)}.w{color:var(--mut);font-size:12px}
+.s{display:flex;gap:8px;flex-wrap:wrap}.s span{background:var(--d);color:#ffd166;border-radius:14px;padding:3px 12px;font-weight:700}
+</style></head><body>
+<header><h1>Catat Pesanan - Bakso Goreng Kak Linda</h1><p>Prototipe awal v0.1 | Kelompok 12 | belum divalidasi Kak Linda</p></header>
+<main>
+<div class="c"><b>Pesanan baru</b>
+<label>Nama pelanggan</label><input id="n" placeholder="mis. Bu Rina">
+<div class="g2"><div><label>Produk</label><select id="p"><option>Tahu bakso</option><option>Tempe</option><option>Sosis</option><option>Bakso goreng</option></select></div>
+<div><label>Jumlah</label><input id="j" type="number" min="1" value="1"></div></div>
+<label>Waktu ambil</label><input id="t" type="datetime-local">
+<label>Catatan</label><textarea id="k" rows="2" placeholder="mis. tanpa saus"></textarea>
+<button class="add" id="a">Tambah pesanan</button></div>
+<div class="c"><b>Yang harus dibuat (belum selesai)</b><div class="s" id="sm" style="margin-top:8px"></div></div>
+<div class="c"><b>Daftar pesanan</b><div id="ls"></div></div>
+<p class="w">Data tersimpan di peramban perangkat ini saja. Harga, stok, dan penjualan belum ada. [ISI harga dari Kak Linda]</p>
+</main>
+<script>
+const $=s=>document.querySelector(s);let L=[];
+try{L=JSON.parse(localStorage.getItem("pesanan")||"[]")}catch(e){}
+const save=()=>{try{localStorage.setItem("pesanan",JSON.stringify(L))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const nx={Baru:"Diproses",Diproses:"Selesai"};
+function draw(){L.sort((a,b)=>(a.t||"9").localeCompare(b.t||"9"));
+$("#ls").innerHTML=L.length?L.map((o,i)=>`<div class="o"><div><b>${esc(o.n)}: ${o.j} ${esc(o.p)}</b><small>${o.t?new Date(o.t).toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"}):"waktu belum diisi"}${o.k?" | "+esc(o.k):""}</small></div><div><span class="bd ${o.s}">${o.s}</span> ${nx[o.s]?`<button data-u="${i}">${nx[o.s]}</button>`:""} <button class="x" data-d="${i}">Hapus</button></div></div>`).join(""):'<span class="w">Belum ada pesanan.</span>';
+const m={};L.filter(o=>o.s!="Selesai").forEach(o=>m[o.p]=(m[o.p]||0)+o.j);
+$("#sm").innerHTML=Object.keys(m).length?Object.entries(m).map(([k,v])=>`<span>${esc(k)}: ${v}</span>`).join(""):'<span class="w" style="background:none;color:inherit">Tidak ada pesanan yang menunggu.</span>';
+document.querySelectorAll("[data-u]").forEach(b=>b.onclick=()=>{L[b.dataset.u].s=nx[L[b.dataset.u].s];save();draw()});
+document.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>{L.splice(b.dataset.d,1);save();draw()})}
+$("#a").onclick=()=>{const n=$("#n").value.trim(),j=+$("#j").value;if(!n||j<1){alert("Isi nama pelanggan dan jumlah.");return}
+L.push({n,p:$("#p").value,j,t:$("#t").value,k:$("#k").value.trim(),s:"Baru"});save();$("#n").value="";$("#k").value="";$("#j").value=1;draw()};
+draw();
+</script></body></html>
