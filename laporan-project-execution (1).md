@@ -20,7 +20,7 @@ Progres terbukti sekitar 27,5% dari total manday, rencana sekitar 40,0%. Selisih
 
 ## 2. Pembagian Tugas dan Bukti Pelaksanaan
 
-Rencana tanggal mengikuti [Jadwal Gantt](../tahap-2-project-planning/jadwal-gantt.md) (tanggal mulai 30 Sep 2026 adalah asumsi).
+Rencana tanggal mengikuti [Jadwal Gantt](../tahap-2-project-planning/jadwal-gantt.md) (tanggal mulai 30 Sep 2026 ).
 
 | Kode | Aktivitas | Pelaksana | Rencana | Status | Bukti |
 |---|---|---|---|---|---|
