@@ -10,6 +10,7 @@
 [![Jadwal](https://img.shields.io/badge/JADWAL-e09a1f?style=for-the-badge)](#jadwal)
 [![Tahap 2](https://img.shields.io/badge/PROJECT%20PLANNING-a8450f?style=for-the-badge)](#planning)
 [![Tahap 3](https://img.shields.io/badge/EXECUTION-8a4510?style=for-the-badge)](#execution)
+[![Tahap 4](https://img.shields.io/badge/MONITORING-6e3109?style=for-the-badge)](#monitoring)
 [![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
 [![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
 
@@ -228,6 +229,18 @@ Ringkasan: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, ren
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+<a id="monitoring"></a>
+## 📈 Monitoring dan Controlling (Tahap 4)
+
+| Keluaran | Berkas |
+|---|---|
+| Laporan (waktu, manday, biaya, masalah, perubahan lingkup, tindakan korektif) | [laporan-monitoring-controlling.md](docs/tahap-4-monitoring-controlling/laporan-monitoring-controlling.md) |
+| Berkas hitung (selisih otomatis) | [Tahap4_Monitoring_Controlling.xlsx](docs/tahap-4-monitoring-controlling/Tahap4_Monitoring_Controlling.xlsx) |
+
+Baseline diambil dari Excel Tahap 2. Data aktual diisi dari kejadian nyata. Temuan sementara: aktivitas 3.1, 4.1, dan 4.3 selesai 31 Oktober 2026, lebih lambat 8, 5, dan 4 hari kerja dari rencana.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 <a id="dokumen"></a>
 ## 📄 Dokumen
 
@@ -267,6 +280,9 @@ Ringkasan: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, ren
     ├── 06-daftar-kebutuhan.md
     ├── 07-alur-proses.md
     ├── 08-rancangan-tampilan.md
+    ├── tahap-4-monitoring-controlling/
+    │   ├── laporan-monitoring-controlling.md
+    │   └── Tahap4_Monitoring_Controlling.xlsx
     ├── tahap-3-project-execution/
     │   └── laporan-project-execution.md
     └── tahap-2-project-planning/
