@@ -37,12 +37,12 @@ Judul proyek memakai istilah *digital twin*. Dalam proyek ini, istilah tersebut 
 | Cara mencatat penjualan dan keuangan | Buku | |
 | Kesulitan utama | Pesanan lupa | Akibatnya pembeli kurang berkenan |
 | Seberapa sering pesanan lupa | Tidak diketahui | Perlu data lanjutan |
-| Perkiraan penjualan per hari | Sekitar Rp 700.000 | Per produk [ISI] |
-| Harga produk | Sekitar Rp 1.000 sampai Rp 2.000 | Harga tepat per produk [ISI] |
+| Perkiraan penjualan per hari | Sekitar Rp 700.000 | Per produk [1.000] |
+| Harga produk | Sekitar Rp 1.000 sampai Rp 2.000 | Harga tepat per produk [1.000] |
 | Pembantu usaha | Tidak ada | Dikerjakan sendiri |
 | Perangkat yang dipakai | HP | Ketersediaan internet [ISI] |
 | Harapan Kak Linda terhadap sistem | Tidak menyebut harapan khusus, mengikuti usulan kelompok | Kelompok menangkap kebutuhan: pemesanan mudah dan tidak lupa |
-| Waktu ramai atau sepi | [ISI] | |
+| Waktu ramai atau sepi | sore hari | |
 | Cara menentukan jumlah produksi | [ISI] | |
 
 Data wawancara 30 September sudah dipakai di [Daftar Kebutuhan](06-daftar-kebutuhan.md).
