@@ -14,7 +14,7 @@
 [![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
 [![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
 
-![Status](https://img.shields.io/badge/status-tahap%20perencanaan-e09a1f?style=flat-square)
+![Status](https://img.shields.io/badge/status-monitoring%20Tahap%204-e09a1f?style=flat-square)
 ![Kelompok](https://img.shields.io/badge/kelompok-12-c0392b?style=flat-square)
 ![Prodi](https://img.shields.io/badge/Informatika-Universitas%20Samudra-7a3d0c?style=flat-square)
 ![Matkul](https://img.shields.io/badge/MPPL-Manajemen%20Proyek%20Perangkat%20Lunak-b8680f?style=flat-square)
@@ -30,9 +30,9 @@
 
 > 🎯 **TUJUAN:** merencanakan digital twin sederhana supaya pesanan di usaha Kak Linda tidak lagi terlupa dan datanya lebih rapi.
 > 🧑‍🍳 **TIM:** Kelompok 12, 4 orang.
-> 📍 **POSISI SAAT INI:** tahap perencanaan. Dokumen awal, Tahap 2 (jadwal, manday, biaya, risiko), dan Tahap 3 (laporan eksekusi dan prototipe awal) sudah berupa draf. Bukti commit GitHub dan keputusan rapat masih perlu dilengkapi kelompok.
+> 📍 **POSISI SAAT INI:** dokumen awal, Tahap 2 (jadwal, manday, biaya, risiko), Tahap 3 (laporan eksekusi dan prototipe awal), dan Tahap 4 (monitoring dan controlling) sudah berupa draf. Bukti commit GitHub dan data aktual manday serta biaya masih perlu dilengkapi kelompok.
 
-Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng. Pesanan masuk secara langsung, pencatatan memakai buku, dan kesulitan yang dirasakan adalah pesanan sering lupa.
+Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng (harga sekitar Rp 1.000 sampai Rp 2.000, penjualan sekitar Rp 700.000 per hari, paling ramai sore hari). Pesanan masuk secara langsung, pencatatan memakai buku, stok dicek saat penjualan habis, dan kesulitan utamanya adalah pesanan sering lupa sehingga pembeli kurang berkenan.
 
 Kelompok kami **merencanakan** model digital usaha yang memuat pesanan, stok, dan penjualan. Website pemesanan direncanakan menjadi salah satu jalur masuk pesanan.
 
@@ -81,7 +81,7 @@ Kelompok bekerja tanpa ketua. Keputusan diambil bersama dalam rapat.
 ## 🔥 Tusuk Progres Fase WBS
 
 <div align="center">
-<img src="assets/levels.svg" alt="Tusuk progres: tahap 1 dan 2 selesai sebagai draf, tahap 3 berikutnya" width="100%">
+<img src="assets/levels.svg" alt="Tusuk progres fase WBS: fase 1 dan 2 selesai sebagai draf, fase 3 dan 4 sedang berjalan" width="100%">
 </div>
 
 Tusuk ini menunjukkan **tujuh fase pekerjaan di WBS**, bukan tahap tugas kuliah. Status tugas kuliah (Tahap 2 Project Planning dan Tahap 3 Project Execution) ada di bagian Project Planning dan Project Execution di bawah. Klik tiap fase untuk melihat isinya. Kode mengikuti [WBS](docs/04-wbs.md).
@@ -213,7 +213,7 @@ Tusuk ini menunjukkan **tujuh fase pekerjaan di WBS**, bukan tahap tugas kuliah.
 | Excel lengkap (rumus hidup) | [Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx](docs/tahap-2-project-planning/Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx) |
 | Halaman interaktif | [index.html](index.html) (aktifkan GitHub Pages: Settings > Pages > Branch main, folder root) |
 
-Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tunai Rp 643.500, total termasuk nilai setara tenaga kerja Rp 8.419.125, 2 risiko Tinggi.
+Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 30 November 2026, biaya tunai Rp 643.500, total termasuk nilai setara tenaga kerja Rp 8.419.125, 2 risiko Tinggi.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -225,7 +225,7 @@ Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 11 Desember 2026, biaya tu
 | Laporan Project Execution (pembagian tugas, progres, catatan rapat, bukti GitHub) | [laporan-project-execution.md](docs/tahap-3-project-execution/laporan-project-execution.md) |
 | Prototipe awal v0.1 | [catat-pesanan.html](prototipe/catat-pesanan.html) |
 
-Ringkasan: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, rencana per 31 Oktober 2026 adalah 40,0%. Aktivitas 3.2 dan 3.3 tertinggal.
+Ringkasan per 31 Oktober 2026: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, sedangkan rencana adalah 40,0%. Aktivitas 3.2 dan 3.3 tertinggal.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -280,18 +280,18 @@ Baseline diambil dari Excel Tahap 2. Data aktual diisi dari kejadian nyata. Temu
     ├── 06-daftar-kebutuhan.md
     ├── 07-alur-proses.md
     ├── 08-rancangan-tampilan.md
-    ├── tahap-4-monitoring-controlling/
-    │   ├── laporan-monitoring-controlling.md
-    │   └── Tahap4_Monitoring_Controlling.xlsx
+    ├── tahap-2-project-planning/
+    │   ├── jadwal-gantt.md
+    │   ├── resource-plan.md
+    │   ├── effort-manday.md
+    │   ├── estimasi-biaya.md
+    │   ├── risk-register.md
+    │   └── Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx
     ├── tahap-3-project-execution/
     │   └── laporan-project-execution.md
-    └── tahap-2-project-planning/
-        ├── jadwal-gantt.md
-        ├── resource-plan.md
-        ├── effort-manday.md
-        ├── estimasi-biaya.md
-        ├── risk-register.md
-        └── Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx
+    └── tahap-4-monitoring-controlling/
+        ├── laporan-monitoring-controlling.md
+        └── Tahap4_Monitoring_Controlling.xlsx
 ```
 
 </details>
