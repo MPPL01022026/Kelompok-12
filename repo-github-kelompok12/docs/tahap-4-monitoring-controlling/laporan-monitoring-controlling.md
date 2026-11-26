@@ -95,7 +95,7 @@ Anggaran tunai Rp 585.000, dengan cadangan 10% menjadi Rp 643.500. Tenaga kerja 
 
 | Kode | Masalah | Dampak | Tindakan | Pemilik | Status |
 |---|---|---|---|---|---|
-| P1 | Data wawancara awal belum lengkap (harga tepat per produk, penjualan per produk, internet di tempat usaha) | Kebutuhan di dokumen 06 sebagian memakai perkiraan | Wawancara lanjutan dengan Kak Linda | Chaira | [ISI status] |
+| P1 | Data wawancara awal belum lengkap (harga tepat per produk, penjualan per produk, internet di tempat usaha) | Kebutuhan di dokumen 06 sebagian memakai perkiraan | Wawancara lanjutan dengan Kak Linda | Chaira | Selesai |
 | P2 | Aktivitas 3.1, 4.1, dan 4.3 selesai 31 Okt 2026, lebih lambat dari rencana (20, 23, dan 26 Okt) | Cadangan waktu menuju tenggat akhir berkurang | Ketiganya diselesaikan dan diunggah; jadwal dipantau mingguan | Chaira, Fitri, Siti | Selesai (draf) |
 | P3 | Analisis Titik Fungsi (3.2) dan validasi dengan Kak Linda (3.3) belum dikerjakan per 31 Okt 2026 | Rancangan data (4.2) dan pengembangan tertahan | Kerjakan 3.2 lebih dulu, lalu demo ke Kak Linda | Intan | [ISI status per 14 Nov] |
 | P4 | Kak Linda belum memahami aplikasi dan hanya mengikuti usulan kelompok | Prototipe belum divalidasi, risiko hasil tidak dipakai | Demo langsung di HP dengan alur paling sederhana | Intan, Chaira | [ISI status] |
