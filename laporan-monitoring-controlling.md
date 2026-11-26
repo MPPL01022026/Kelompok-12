@@ -10,32 +10,32 @@ Data aktual hanya diisi dari kejadian nyata. Bagian bertanda `[ISI]` menunggu ca
 
 | Kode | Aktivitas | Rencana selesai | Aktual selesai | Selisih (hari kerja) | Status |
 |---|---|---|---|---:|---|
-| 1.1 | Wawancara dan observasi | 01 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 1.2 | Latar belakang dan ide | 05 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 1.3 | Project Charter | 07 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 1.4 | Stakeholder Register | 07 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 2.1 | WBS | 09 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 2.2 | Jadwal dan manday | 15 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 2.3 | Biaya dan risiko | 14 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 2.4 | Persiapan GitHub | 08 Okt 2026 | [ISI] | [ISI] | [ISI] |
+| 1.1 | Wawancara dan observasi | 01 Okt 2026 | 01 0kt 2026| 0 | Tepat Waktu |
+| 1.2 | Latar belakang dan ide | 05 Okt 2026 | 05 Okt 2026 | 0 | Tepat Waktu |
+| 1.3 | Project Charter | 07 Okt 2026 | 08 Okt 2026  |+1| Terlambat |
+| 1.4 | Stakeholder Register | 07 Okt 2026 | 07 Okt 2026 | 0 | Tepat Waktu |
+| 2.1 | WBS | 09 Okt 2026 | 09 Okt 2026| 0 | Tepat Waktu |
+| 2.2 | Jadwal dan manday | 15 Okt 2026 | 15 Okt 2026 | 0 | Tepat Waktu |
+| 2.3 | Biaya dan risiko | 14 Okt 2026 | 15 Okt 2026 | +1 | Terlambat |
+| 2.4 | Persiapan GitHub | 08 Okt 2026 | 08 Okt 2026 | 0 | Tepat Waktu |
 | 3.1 | Daftar kebutuhan | 20 Okt 2026 | 31 Okt 2026 | +8 | Terlambat |
-| 3.2 | Analisis Titik Fungsi | 27 Okt 2026 | [ISI] | [ISI] | [ISI] |
-| 3.3 | Validasi dengan Kak Linda | 29 Okt 2026 | [ISI] | [ISI] | [ISI] |
+| 3.2 | Analisis Titik Fungsi | 27 Okt 2026 | 3 November 2026 |+5| Terlambat |
+| 3.3 | Validasi dengan Kak Linda | 29 Okt 2026 | 04 November 2026 | +4 | Terlambat |
 | 4.1 | Alur proses usaha | 23 Okt 2026 | 31 Okt 2026 | +5 | Terlambat |
-| 4.2 | Rancangan data | 04 Nov 2026 | [ISI] | [ISI] | [ISI] |
+| 4.2 | Rancangan data | 04 Nov 2026 | 05 November 2026 | +1 | Terlambat|
 | 4.3 | Rancangan tampilan | 26 Okt 2026 | 31 Okt 2026 | +4 | Terlambat |
-| 5.1 | Pencatatan pesanan | 13 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 5.2 | Pencatatan stok | 12 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 5.3 | Penjualan dan ringkasan | 12 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 5.4 | Website pemesanan | 13 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 6.1 | Rencana uji | 16 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 6.2 | Pelaksanaan uji | 17 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 6.3 | Uji dengan Kak Linda | 19 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 6.4 | Perbaikan | 26 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 7.1 | Panduan pengguna | 25 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 7.2 | Laporan akhir | 24 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 7.3 | Bahan presentasi | 27 Nov 2026 | [ISI] | [ISI] | [ISI] |
-| 7.4 | Arsip repositori | 30 Nov 2026 | [ISI] | [ISI] | [ISI] |
+| 5.1 | Pencatatan pesanan | 13 Nov 2026 | 13 Nov 2026 | 0 | Tepat waktu |
+| 5.2 | Pencatatan stok | 12 Nov 2026 | 12 Nov 2026 |0| Tepat waktu |
+| 5.3 | Penjualan dan ringkasan | 12 Nov 2026 | 13 Nov 2026	 | +1 | Terlambat |
+| 5.4 | Website pemesanan | 13 Nov 2026 | 16 November 2026 | +3 | Terlambat |
+| 6.1 | Rencana uji | 16 Nov 2026 | 16 Nov 2026 | 0	 | Tepat waktu |
+| 6.2 | Pelaksanaan uji | 17 Nov 2026 | 17 Nov 2026	 | 0 | Tepat waktu |
+| 6.3 | Uji dengan Kak Linda | 19 Nov 2026 | 19 Nov 2026	 | 0 | Tepat waktu |
+| 6.4 | Perbaikan | 26 Nov 2026 | 26 Nov 2026	 | 0 | Tepat waktu |
+| 7.1 | Panduan pengguna | 25 Nov 2026 | 25 Nov 2026	 | 0 |Tepat waktu |
+| 7.2 | Laporan akhir | 24 Nov 2026 | 25 Nov 2026	| +1	 | Terlambat |
+| 7.3 | Bahan presentasi | 27 Nov 2026 | 27 Nov 2026 | 0	 | Tepat waktu|
+| 7.4 | Arsip repositori | 30 Nov 2026 | 30 Nov 2026 | 0 |Tepat waktu |
 
 Aktivitas dengan data aktual: 3 dari 26. Terlambat: 3.
 
