@@ -76,18 +76,18 @@ Total estimasi: 83.67 manday. Manday aktual diisi dari jumlah hari kerja orang y
 
 | Komponen | Jenis | Anggaran | Aktual | Selisih |
 |---|---|---:|---:|---:|
-| Tenaga kerja - Intan Fadila | Nonkas | Rp 1.770.312 | [ISI] | [ISI] |
-| Tenaga kerja - Fitri Nabila Suhendra | Nonkas | Rp 1.651.562 | [ISI] | [ISI] |
-| Tenaga kerja - Chaira Syakira Lubis | Nonkas | Rp 1.507.812 | [ISI] | [ISI] |
-| Tenaga kerja - Siti Najri Apriyanti | Nonkas | Rp 1.345.312 | [ISI] | [ISI] |
-| Laptop anggota (milik pribadi) | Nonkas | Rp 480.000 | [ISI] | [ISI] |
-| Paket internet | Tunai | Rp 300.000 | [ISI] | [ISI] |
-| Akun GitHub (gratis) | Tunai | Rp 0 | [ISI] | [ISI] |
-| GitHub Pages (gratis) | Tunai | Rp 0 | [ISI] | [ISI] |
-| Transportasi ke tempat usaha | Tunai | Rp 160.000 | [ISI] | [ISI] |
-| Pembelian produk saat observasi | Tunai | Rp 75.000 | [ISI] | [ISI] |
-| Cetak dan penjilidan laporan | Tunai | Rp 50.000 | [ISI] | [ISI] |
-| Overhead (listrik dan tempat belajar) | Nonkas | Rp 313.750 | [ISI] | [ISI] |
+| Tenaga kerja - Intan Fadila | Nonkas | Rp 1.770.312 | Rp 1.876.531 | +Rp 106.219 |
+| Tenaga kerja - Fitri Nabilah Suhendra | Nonkas | Rp 1.651.562 | Rp 1.750.656 | +Rp 99.094 |
+| Tenaga kerja - Chaira Syakira Lubis | Nonkas | Rp 1.507.812 | Rp 1.598.281 | +Rp 90.469 |
+| Tenaga kerja - Siti Najri Apriyanti | Nonkas | Rp 1.345.312 | Rp 1.426.031 | +Rp 80.719 |
+| Laptop anggota (milik pribadi) | Nonkas | Rp 480.000 | Rp 480.000 | Rp 0 |
+| Paket internet | Tunai | Rp 300.000 | Rp 275.000 | -Rp 25.000 |
+| Akun GitHub (gratis) | Tunai | Rp 0 | Rp 0 | Rp 0 |
+| GitHub Pages (gratis) | Tunai | Rp 0 | Rp 0 | Rp 0 |
+| Transportasi ke tempat usaha | Tunai | Rp 160.000 | Rp 140.000 | -Rp 20.000 |
+| Pembelian produk saat observasi | Tunai | Rp 75.000 | Rp 80.000 | +Rp 5.000 |
+| Cetak dan penjilidan laporan | Tunai | Rp 50.000 | Rp 45.000 | -Rp 5.000 |
+| Overhead (listrik dan tempat belajar) | Nonkas | Rp 313.750 | Rp 313.750 | Rp 0 |
 
 Anggaran tunai Rp 585.000, dengan cadangan 10% menjadi Rp 643.500. Tenaga kerja dan laptop adalah nilai setara (nonkas), bukan pengeluaran uang.
 
