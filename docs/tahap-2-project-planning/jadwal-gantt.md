@@ -4,7 +4,7 @@ Tahap 2 - Project Planning | Kelompok 12
 
 Jadwal dihitung dari durasi dan dependensi di [Excel Tahap 2](Tahap2_Project_Planning_Bakso_Kak_Linda.xlsx). Hari kerja Senin-Jumat, libur 25 Des 2026 dan 1 Jan 2027 dikecualikan. FS = selesai-ke-mulai, SS = mulai-ke-mulai.
 
-> **Dasar tanggal:** tenggat Tahap 2 (24 Okt 2026), Tahap 3 (10 Nov 2026), dan Tahap 4-5 (1 Des 2026) adalah tenggat resmi dari dosen. Tanggal mulai (30 Sep 2026) adalah **asumsi**, memakai tanggal wawancara pertama, karena tanggal mulai resmi belum diketahui. Susunan jadwal dibuat agar tidak ada satu orang yang mengerjakan dua tugas pada hari yang sama.
+> **Dasar tanggal:** tenggat Tahap 2 (24 Okt 2026), Tahap 3 (10 Nov 2026), Tahap 4 (14 Nov 2026), dan Tahap 5 (3 Des 2026) adalah tenggat resmi dari dosen. Tanggal mulai (30 Sep 2026) adalah **asumsi**, memakai tanggal wawancara pertama, karena tanggal mulai resmi belum diketahui. Susunan jadwal dibuat agar tidak ada satu orang yang mengerjakan dua tugas pada hari yang sama.
 
 ## Gantt
 
@@ -50,7 +50,7 @@ gantt
     MS1 Tahap 2 Project Planning dikumpulkan :milestone, ms1, 2026-10-24, 0d
     MS2 Tahap 3 Project Execution dikumpulkan :milestone, ms2, 2026-11-10, 0d
     MS3 Pengembangan dan pengujian selesai (target) :milestone, ms3, 2026-11-27, 0d
-    MS4 Tahap 4 dan 5 dikumpulkan (tenggat akhir) :milestone, ms4, 2026-12-01, 0d
+    MS4 Tahap 5 Project Closure dikumpulkan (tenggat akhir) :milestone, ms4, 2026-12-03, 0d
 ```
 
 Catatan: Mermaid tidak mengenal libur nasional. Tanggal yang berlaku ada di tabel dan Excel.
@@ -93,8 +93,8 @@ Catatan: Mermaid tidak mengenal libur nasional. Tanggal yang berlaku ada di tabe
 | MS1 | Tahap 2 Project Planning dikumpulkan | 24 Okt 2026 | 15 Okt 2026 | 9 | OK |
 | MS2 | Tahap 3 Project Execution dikumpulkan | 10 Nov 2026 | 04 Nov 2026 | 6 | OK |
 | MS3 | Pengembangan dan pengujian selesai (target) | 27 Nov 2026 | 26 Nov 2026 | 1 | OK |
-| MS4 | Tahap 4 dan 5 dikumpulkan (tenggat akhir) | 01 Des 2026 | 30 Nov 2026 | 1 | OK |
+| MS4 | Tahap 5 Project Closure dikumpulkan (tenggat akhir) | 03 Des 2026 | 30 Nov 2026 | 3 | OK |
 
-Seluruh pekerjaan selesai pada 30 Nov 2026, satu hari sebelum tenggat akhir. Cadangan waktu sangat tipis, sehingga setiap keterlambatan perlu segera ditangani (lihat risiko R5 dan R6).
+Seluruh pekerjaan selesai pada 30 Nov 2026, tiga hari kalender sebelum tenggat akhir (3 Des 2026). Cadangan waktu tipis, sehingga keterlambatan perlu segera ditangani (lihat risiko R5 dan R6).
 
 Kembali ke [README](../../README.md).

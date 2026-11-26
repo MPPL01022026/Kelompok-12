@@ -90,7 +90,7 @@ Rencana pengembangan berikutnya mengikuti WBS: pencatatan pesanan (5.1), stok (5
 
 1. Membagi ulang tugas yang tertinggal (3.2 dan 3.3) bila perlu.
 2. Mengerjakan Analisis Titik Fungsi (3.2) dan menjadwalkan demo prototipe ke Kak Linda (3.3).
-3. Wawancara lanjutan: harga tepat per produk, penjualan per produk, jam ramai, internet di tempat usaha.
+3. Wawancara lanjutan: harga tepat per produk, penjualan per produk, dan internet di tempat usaha (jam ramai sudah diketahui: sore hari).
 4. Konsultasi arti digital twin dengan dosen.
 5. Mengunggah repositori ke GitHub dan memastikan semua anggota berkontribusi.
 
@@ -99,7 +99,7 @@ Rencana pengembangan berikutnya mengikuti WBS: pencatatan pesanan (5.1), stok (5
 | Anggota | Username GitHub | Commit | Pull Request | Tautan bukti |
 |---|---|---:|---:|---|
 | Intan Fadila | [intanfadila-ui](https://github.com/intanfadila-ui) | [ISI] | [ISI] | [ISI] |
-| Fitri Nabila Suhendra | [fitrinabila-gif](https://github.com/fitrinabila-gif) | [ISI] | [ISI] | [ISI] |
+| Fitri Nabila Suhendra | [fitrinabilah-gif](https://github.com/fitrinabilah-gif) | [ISI] | [ISI] | [ISI] |
 | Chaira Syakira Lubis | [narashaa](https://github.com/narashaa) | [ISI] | [ISI] | [ISI] |
 | Siti Najri Apriyanti | [stnajriapriyanti-dot](https://github.com/stnajriapriyanti-dot) | [ISI] | [ISI] | [ISI] |
 

@@ -42,7 +42,7 @@ Daftar ini disusun dari [wawancara dengan Kak Linda](01-latar-belakang-dan-ide-p
 ## 4. Batasan dan Hal yang Belum Diketahui
 
 - Ruang lingkup tetap empat produk: tahu bakso, tempe, sosis, bakso goreng.
-- Harga tepat per produk: [ISI]. Penjualan per produk: [ISI]. Jam ramai: [ISI].
+- Harga tepat per produk: [ISI]. Penjualan per produk: [ISI]. Jam ramai: sore hari (dari catatan kelompok).
 - Ketersediaan internet di tempat usaha: [ISI].
 - Seberapa sering pesanan lupa dalam seminggu: belum diketahui.
 

@@ -1,51 +1,106 @@
 <!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Prototipe Catat Pesanan v0.1 - Bakso Goreng Kak Linda</title>
+<title>Catat Pesanan v1.0 - Bakso Goreng Kak Linda</title>
 <style>
 :root{--bg:#fff8ec;--pn:#fff;--ink:#2a1407;--mut:#7a5a3c;--ln:#ecd3a4;--g:#e09a1f;--r:#b32a1a;--d:#3b1d08}
 @media(prefers-color-scheme:dark){:root{--bg:#160a03;--pn:#2a1407;--ink:#fff3d6;--mut:#d9b27a;--ln:#5a2b0e;--d:#0e0602}}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,Arial,sans-serif}
-header{background:linear-gradient(135deg,#150a03,#4a210b);color:#ffd166;padding:16px;text-align:center;border-bottom:8px solid var(--r)}
-header h1{margin:0;font-size:20px}header p{margin:4px 0 0;color:#f1c27d;font-size:12px}
-main{max-width:720px;margin:0 auto;padding:14px}
+header{background:linear-gradient(135deg,#150a03,#4a210b);color:#ffd166;padding:14px;text-align:center;border-bottom:8px solid var(--r)}
+header h1{margin:0;font-size:19px}header p{margin:3px 0 0;color:#f1c27d;font-size:12px}
+main{max-width:720px;margin:0 auto;padding:12px}
+nav{display:flex;gap:6px;margin-bottom:10px;flex-wrap:wrap}nav button{flex:1;min-width:0;padding:7px 4px}
 .c{background:var(--pn);border:2px solid var(--ln);border-radius:12px;padding:12px;margin-bottom:12px}
 label{display:block;font-size:12px;color:var(--mut);margin-top:8px}
 input,select,textarea,button{font:inherit;border:2px solid var(--g);border-radius:10px;padding:7px 10px;background:var(--pn);color:var(--ink);width:100%}
 .g2{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 button{cursor:pointer;background:var(--g);color:#2a1407;font-weight:700;width:auto}
+nav button.on{background:var(--r);color:#fff3d6;border-color:var(--r)}
 .add{width:100%;margin-top:12px;background:var(--r);color:#fff3d6;border-color:var(--r)}
 .o{display:flex;gap:8px;align-items:center;justify-content:space-between;border-bottom:1px dashed var(--ln);padding:8px 0;flex-wrap:wrap}
-.o b{display:block}.o small{color:var(--mut)}.bd{display:inline-block;border-radius:10px;padding:1px 9px;font-size:12px;font-weight:700}
-.Baru{background:#f8cbad}.Diproses{background:#ffe699}.Selesai{background:#c6efce}.bd{color:#2a1407}
+.o b{display:block}.o small{color:var(--mut)}.bd{display:inline-block;border-radius:10px;padding:1px 9px;font-size:12px;font-weight:700;color:#2a1407}
+.Baru{background:#f8cbad}.Diproses{background:#ffe699}.Selesai{background:#c6efce}
 .x{background:transparent;color:var(--r);border-color:var(--r)}.w{color:var(--mut);font-size:12px}
 .s{display:flex;gap:8px;flex-wrap:wrap}.s span{background:var(--d);color:#ffd166;border-radius:14px;padding:3px 12px;font-weight:700}
+.al{background:#f8cbad;color:#2a1407;border:2px solid var(--r);border-radius:10px;padding:8px 12px;margin-bottom:12px;font-weight:700}
+table{width:100%;border-collapse:collapse}th,td{border:1px solid var(--ln);padding:5px 8px;text-align:left;font-size:13px}th{background:var(--d);color:#ffd166}
+section{display:none}section.on{display:block}.er{color:var(--r);font-weight:700;margin-top:6px}
 </style></head><body>
-<header><h1>Catat Pesanan - Bakso Goreng Kak Linda</h1><p>Prototipe awal v0.1 | Kelompok 12 | belum divalidasi Kak Linda</p></header>
+<header><h1>Catat Pesanan - Bakso Goreng Kak Linda</h1><p>Versi 1.0 | Kelompok 12 | belum divalidasi Kak Linda</p></header>
 <main>
-<div class="c"><b>Pesanan baru</b>
+<div id="al"></div>
+<nav id="nv"><button data-t="a" class="on">Pesanan</button><button data-t="b">Stok</button><button data-t="c">Penjualan</button><button data-t="d">Pengaturan</button></nav>
+<section id="a" class="on"><div class="c"><b>Pesanan baru</b>
 <label>Nama pelanggan</label><input id="n" placeholder="mis. Bu Rina">
-<div class="g2"><div><label>Produk</label><select id="p"><option>Tahu bakso</option><option>Tempe</option><option>Sosis</option><option>Bakso goreng</option></select></div>
-<div><label>Jumlah</label><input id="j" type="number" min="1" value="1"></div></div>
-<label>Harga satuan (Rp, boleh dikosongkan; menurut Kak Linda sekitar 1.000 sampai 2.000)</label><input id="h" type="number" min="0" placeholder="mis. 2000">
-<label>Waktu ambil</label><input id="t" type="datetime-local">
-<label>Catatan</label><textarea id="k" rows="2" placeholder="mis. tanpa saus"></textarea>
-<button class="add" id="a">Tambah pesanan</button></div>
+<div class="g2"><div><label>Produk</label><select id="p"></select></div><div><label>Jumlah</label><input id="j" type="number" min="1" value="1"></div></div>
+<label>Harga satuan (Rp, kosongkan untuk memakai harga standar)</label><input id="h" type="number" min="0">
+<label>Waktu ambil</label><input id="t" type="datetime-local"><label>Catatan</label><textarea id="k" rows="2"></textarea>
+<div class="er" id="er"></div><button class="add" id="tb">Tambah pesanan</button></div>
 <div class="c"><b>Yang harus dibuat (belum selesai)</b><div class="s" id="sm" style="margin-top:8px"></div></div>
-<div class="c"><b>Daftar pesanan</b><div id="ls"></div></div>
-<p class="w">Data tersimpan di peramban perangkat ini saja. Stok dan penjualan belum ada. Harga tepat per produk belum diberikan Kak Linda.</p>
+<div class="c"><b>Daftar pesanan</b><div id="ls"></div></div></section>
+<section id="b"><div class="c"><b>Stok per produk</b><p class="w">Isi stok saat ini dan batas minimal. Aplikasi memberi tanda saat stok mencapai batas.</p><div id="sk"></div></div></section>
+<section id="c"><div class="c"><b>Penjualan langsung (tanpa pesanan)</b>
+<div class="g2"><div><label>Produk</label><select id="vp"></select></div><div><label>Jumlah</label><input id="vj" type="number" min="1" value="1"></div></div>
+<label>Harga satuan (Rp, kosongkan untuk harga standar)</label><input id="vh" type="number" min="0"><div class="er" id="ve"></div><button class="add" id="vb">Catat penjualan</button></div>
+<div class="c"><b>Hari ini</b><p id="om" style="font-size:18px;font-weight:700;margin:6px 0"></p><div class="s" id="tj"></div></div>
+<div class="c"><b>7 hari terakhir</b><table id="hr"></table></div></section>
+<section id="d"><div class="c"><b>Harga standar</b><div id="hg"></div></div>
+<div class="c"><b>Cadangan data</b><p class="w">Data tersimpan di peramban perangkat ini. Unduh cadangan secara berkala.</p><button id="un">Unduh cadangan</button> <label>Pulihkan dari berkas cadangan</label><input id="pl" type="file" accept=".json"><div class="er" id="pe"></div><br><button class="x" id="rs">Hapus semua data</button></div></section>
 </main>
 <script>
-const $=s=>document.querySelector(s);let L=[];
-try{L=JSON.parse(localStorage.getItem("pesanan")||"[]")}catch(e){}
-const save=()=>{try{localStorage.setItem("pesanan",JSON.stringify(L))}catch(e){}};
+const PRODUK=["Tahu bakso","Tempe","Sosis","Bakso goreng"];
+const Core={
+ baru(){const h={},s={};PRODUK.forEach(p=>{h[p]=0;s[p]={n:0,min:0}});return{harga:h,stok:s,pesanan:[],penjualan:[],seq:1}},
+ ok(j){return Number.isInteger(j)&&j>=1},
+ tambahPesanan(S,o,tgl){const n=String(o.n||"").trim();if(!n)return{err:"Nama pelanggan wajib diisi"};if(!PRODUK.includes(o.p))return{err:"Produk tidak dikenal"};if(!Core.ok(o.j))return{err:"Jumlah harus bilangan bulat minimal 1"};
+  const h=Math.max(0,Number(o.h)||0),x={id:S.seq++,n,p:o.p,j:o.j,h,t:o.t||"",k:(o.k||"").trim(),s:"Baru",tgl};S.pesanan.push(x);return{ok:x}},
+ maju(S,id,tgl){const o=S.pesanan.find(x=>x.id===id);if(!o||o.s==="Selesai")return null;
+  if(o.s==="Baru"){o.s="Diproses";return o}
+  o.s="Selesai";const h=o.h||S.harga[o.p]||0;S.penjualan.push({id:S.seq++,p:o.p,j:o.j,h,tgl,oid:o.id});const st=S.stok[o.p];st.n=Math.max(0,st.n-o.j);return o},
+ hapus(S,id){const o=S.pesanan.find(x=>x.id===id);if(!o)return false;
+  if(o.s==="Selesai"){const i=S.penjualan.findIndex(x=>x.oid===id);if(i>=0)S.penjualan.splice(i,1);S.stok[o.p].n+=o.j}
+  S.pesanan.splice(S.pesanan.indexOf(o),1);return true},
+ jualLangsung(S,v,tgl){if(!PRODUK.includes(v.p))return{err:"Produk tidak dikenal"};if(!Core.ok(v.j))return{err:"Jumlah harus bilangan bulat minimal 1"};
+  const h=Math.max(0,Number(v.h)||S.harga[v.p]||0);S.penjualan.push({id:S.seq++,p:v.p,j:v.j,h,tgl});const st=S.stok[v.p];st.n=Math.max(0,st.n-v.j);return{ok:true}},
+ setStok(S,p,n,min){if(!PRODUK.includes(p))return false;S.stok[p]={n:Math.max(0,Math.floor(n)||0),min:Math.max(0,Math.floor(min)||0)};return true},
+ hampirHabis(S){return PRODUK.filter(p=>S.stok[p].min>0&&S.stok[p].n<=S.stok[p].min)},
+ urut(S){return S.pesanan.slice().sort((a,b)=>(a.t||"9999").localeCompare(b.t||"9999")||a.id-b.id)},
+ harusDibuat(S){const m={};S.pesanan.filter(o=>o.s!=="Selesai").forEach(o=>m[o.p]=(m[o.p]||0)+o.j);return m},
+ omzet(S,tgl){return S.penjualan.filter(x=>x.tgl===tgl).reduce((a,x)=>a+x.j*x.h,0)},
+ terjual(S,tgl){const m={};S.penjualan.filter(x=>x.tgl===tgl).forEach(x=>m[x.p]=(m[x.p]||0)+x.j);return m},
+ harian(S,tgl,n){const r=[];for(let i=0;i<n;i++){const d=new Date(tgl+"T00:00:00");d.setDate(d.getDate()-i);const k=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");r.push({tgl:k,omzet:Core.omzet(S,k),jumlah:S.penjualan.filter(x=>x.tgl===k).reduce((a,x)=>a+x.j,0)})}return r},
+ pulihkan(txt){try{const S=JSON.parse(txt);if(!S||!Array.isArray(S.pesanan)||!Array.isArray(S.penjualan)||!S.stok||!S.harga)return null;PRODUK.forEach(p=>{S.stok[p]=S.stok[p]||{n:0,min:0};S.harga[p]=S.harga[p]||0});S.seq=S.seq||1;return S}catch(e){return null}}
+};
+
+</script>
+<script>
+const $=s=>document.querySelector(s),KEY="bakso_kaklinda_v1";
+const tgl=()=>{const d=new Date();return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0")};
+let S=null;try{S=Core.pulihkan(localStorage.getItem(KEY)||"")}catch(e){}S=S||Core.baru();
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}};
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const rp=n=>"Rp "+Math.round(n).toLocaleString("id-ID"),opt=PRODUK.map(p=>`<option>${p}</option>`).join("");
+$("#p").innerHTML=$("#vp").innerHTML=opt;
 const nx={Baru:"Diproses",Diproses:"Selesai"};
-function draw(){L.sort((a,b)=>(a.t||"9").localeCompare(b.t||"9"));
-$("#ls").innerHTML=L.length?L.map((o,i)=>`<div class="o"><div><b>${esc(o.n)}: ${o.j} ${esc(o.p)}${o.h?" = Rp "+(o.j*o.h).toLocaleString("id-ID"):""}</b><small>${o.t?new Date(o.t).toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"}):"waktu belum diisi"}${o.k?" | "+esc(o.k):""}</small></div><div><span class="bd ${o.s}">${o.s}</span> ${nx[o.s]?`<button data-u="${i}">${nx[o.s]}</button>`:""} <button class="x" data-d="${i}">Hapus</button></div></div>`).join(""):'<span class="w">Belum ada pesanan.</span>';
-const m={};L.filter(o=>o.s!="Selesai").forEach(o=>m[o.p]=(m[o.p]||0)+o.j);
-$("#sm").innerHTML=Object.keys(m).length?Object.entries(m).map(([k,v])=>`<span>${esc(k)}: ${v}</span>`).join(""):'<span class="w" style="background:none;color:inherit">Tidak ada pesanan yang menunggu.</span>';
-document.querySelectorAll("[data-u]").forEach(b=>b.onclick=()=>{L[b.dataset.u].s=nx[L[b.dataset.u].s];save();draw()});
-document.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>{L.splice(b.dataset.d,1);save();draw()})}
-$("#a").onclick=()=>{const n=$("#n").value.trim(),j=+$("#j").value;if(!n||j<1){alert("Isi nama pelanggan dan jumlah.");return}
-L.push({n,p:$("#p").value,j,h:+$("#h").value||0,t:$("#t").value,k:$("#k").value.trim(),s:"Baru"});save();$("#n").value="";$("#k").value="";$("#h").value="";$("#j").value=1;draw()};
+function draw(keep){
+ const lo=Core.hampirHabis(S);$("#al").innerHTML=lo.length?`<div class="al">Stok hampir habis: ${lo.map(esc).join(", ")}</div>`:"";
+ const L=Core.urut(S);$("#ls").innerHTML=L.length?L.map(o=>`<div class="o"><div><b>${esc(o.n)}: ${o.j} ${esc(o.p)}${(o.h||S.harga[o.p])?" = "+rp(o.j*(o.h||S.harga[o.p])):""}</b><small>${o.t?new Date(o.t).toLocaleString("id-ID",{dateStyle:"medium",timeStyle:"short"}):"waktu belum diisi"}${o.k?" | "+esc(o.k):""}</small></div><div><span class="bd ${o.s}">${o.s}</span> ${nx[o.s]?`<button data-u="${o.id}">${nx[o.s]}</button>`:""} <button class="x" data-d="${o.id}">Hapus</button></div></div>`).join(""):'<span class="w">Belum ada pesanan.</span>';
+ const m=Core.harusDibuat(S),ks=Object.keys(m);$("#sm").innerHTML=ks.length?ks.map(k=>`<span>${esc(k)}: ${m[k]}</span>`).join(""):'<span class="w" style="background:none;color:inherit">Tidak ada pesanan yang menunggu.</span>';
+ if(!keep){$("#sk").innerHTML=PRODUK.map(p=>`<div class="g2" style="margin-bottom:8px"><div><label>${p}: stok</label><input type="number" min="0" data-s="${p}" data-f="n" value="${S.stok[p].n}"></div><div><label>batas minimal</label><input type="number" min="0" data-s="${p}" data-f="min" value="${S.stok[p].min}"></div></div>`).join("");
+ $("#hg").innerHTML=PRODUK.map(p=>`<label>${p} (Rp)</label><input type="number" min="0" data-hg="${p}" value="${S.harga[p]||""}">`).join("");}
+ const T=tgl(),tj=Core.terjual(S,T),kj=Object.keys(tj);$("#om").textContent="Omzet: "+rp(Core.omzet(S,T));
+ $("#tj").innerHTML=kj.length?kj.map(k=>`<span>${esc(k)}: ${tj[k]}</span>`).join(""):'<span class="w" style="background:none;color:inherit">Belum ada penjualan hari ini.</span>';
+ $("#hr").innerHTML="<tr><th>Tanggal</th><th>Jumlah terjual</th><th>Omzet</th></tr>"+Core.harian(S,T,7).map(r=>`<tr><td>${r.tgl}</td><td>${r.jumlah}</td><td>${rp(r.omzet)}</td></tr>`).join("");
+}
+document.addEventListener("click",e=>{const b=e.target;
+ if(b.dataset.t){document.querySelectorAll("nav button,section").forEach(x=>x.classList.remove("on"));b.classList.add("on");$("#"+b.dataset.t).classList.add("on")}
+ if(b.dataset.u){Core.maju(S,+b.dataset.u,tgl());save();draw()}
+ if(b.dataset.d&&confirm("Hapus pesanan ini?")){Core.hapus(S,+b.dataset.d);save();draw()}});
+$("#tb").onclick=()=>{const r=Core.tambahPesanan(S,{n:$("#n").value,p:$("#p").value,j:parseInt($("#j").value,10),h:$("#h").value,t:$("#t").value,k:$("#k").value},tgl());$("#er").textContent=r.err||"";if(r.ok){["#n","#k","#h"].forEach(x=>$(x).value="");$("#j").value=1;save();draw()}};
+$("#vb").onclick=()=>{const r=Core.jualLangsung(S,{p:$("#vp").value,j:parseInt($("#vj").value,10),h:$("#vh").value},tgl());$("#ve").textContent=r.err||"";if(r.ok){$("#vh").value="";$("#vj").value=1;save();draw()}};
+document.addEventListener("change",e=>{const i=e.target;
+ if(i.dataset.s){const p=i.dataset.s,c=S.stok[p];Core.setStok(S,p,i.dataset.f==="n"?+i.value:c.n,i.dataset.f==="min"?+i.value:c.min);save();draw(true)}
+ if(i.dataset.hg){S.harga[i.dataset.hg]=Math.max(0,+i.value||0);save();draw(true)}});
+$("#un").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S)],{type:"application/json"}));a.download="cadangan-pesanan-"+tgl()+".json";a.click()};
+$("#pl").onchange=e=>{const f=e.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const x=Core.pulihkan(r.result);$("#pe").textContent=x?"":"Berkas cadangan tidak valid.";if(x){S=x;save();draw()}};r.readAsText(f)};
+$("#rs").onclick=()=>{if(confirm("Hapus semua data pesanan, stok, dan penjualan?")){S=Core.baru();save();draw()}};
 draw();
 </script></body></html>

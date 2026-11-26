@@ -21,7 +21,7 @@ Alasan rekomendasi: Kak Linda memakai HP, belum memahami aplikasi, dan butuh car
 
 ## 3. Layar yang Direncanakan
 
-**Layar 1 - Catat Pesanan** (sudah ada di [prototipe v0.1](../prototipe/catat-pesanan.html))
+**Layar 1 - Catat Pesanan** (sudah ada di [prototipe](../prototipe/catat-pesanan.html))
 
 ```text
 +------------------------------+

@@ -11,10 +11,11 @@
 [![Tahap 2](https://img.shields.io/badge/PROJECT%20PLANNING-a8450f?style=for-the-badge)](#planning)
 [![Tahap 3](https://img.shields.io/badge/EXECUTION-8a4510?style=for-the-badge)](#execution)
 [![Tahap 4](https://img.shields.io/badge/MONITORING-6e3109?style=for-the-badge)](#monitoring)
+[![Tahap 5](https://img.shields.io/badge/CLOSURE-4a210b?style=for-the-badge)](#closure)
 [![Dokumen](https://img.shields.io/badge/DOKUMEN-b8680f?style=for-the-badge)](#dokumen)
 [![Cara Kerja](https://img.shields.io/badge/CARA%20KERJA-7a3d0c?style=for-the-badge)](#cara-kerja)
 
-![Status](https://img.shields.io/badge/status-monitoring%20Tahap%204-e09a1f?style=flat-square)
+![Status](https://img.shields.io/badge/status-closure%20Tahap%205-e09a1f?style=flat-square)
 ![Kelompok](https://img.shields.io/badge/kelompok-12-c0392b?style=flat-square)
 ![Prodi](https://img.shields.io/badge/Informatika-Universitas%20Samudra-7a3d0c?style=flat-square)
 ![Matkul](https://img.shields.io/badge/MPPL-Manajemen%20Proyek%20Perangkat%20Lunak-b8680f?style=flat-square)
@@ -30,7 +31,7 @@
 
 > 🎯 **TUJUAN:** merencanakan digital twin sederhana supaya pesanan di usaha Kak Linda tidak lagi terlupa dan datanya lebih rapi.
 > 🧑‍🍳 **TIM:** Kelompok 12, 4 orang.
-> 📍 **POSISI SAAT INI:** dokumen awal, Tahap 2 (jadwal, manday, biaya, risiko), Tahap 3 (laporan eksekusi dan prototipe awal), dan Tahap 4 (monitoring dan controlling) sudah berupa draf. Bukti commit GitHub dan data aktual manday serta biaya masih perlu dilengkapi kelompok.
+> 📍 **POSISI SAAT INI:** dokumen awal, Tahap 2 (jadwal, manday, biaya, risiko), Tahap 3 (laporan eksekusi dan prototipe awal), Tahap 4 (monitoring dan controlling), dan Tahap 5 (penutupan: prototipe v1.0, pengujian, evaluasi, laporan akhir, presentasi) sudah berupa draf. Uji dengan Kak Linda, data aktual manday dan biaya, serta bukti commit masih perlu dilengkapi kelompok.
 
 Kak Linda menjual tahu bakso, tempe, sosis, dan bakso goreng (harga sekitar Rp 1.000 sampai Rp 2.000, penjualan sekitar Rp 700.000 per hari, paling ramai sore hari). Pesanan masuk secara langsung, pencatatan memakai buku, stok dicek saat penjualan habis, dan kesulitan utamanya adalah pesanan sering lupa sehingga pembeli kurang berkenan.
 
@@ -194,9 +195,9 @@ Tusuk ini menunjukkan **tujuh fase pekerjaan di WBS**, bukan tahap tugas kuliah.
 | MS1 · Tahap 2 Project Planning | 24 Oktober 2026 | 15 Oktober 2026 | Draf selesai |
 | MS2 · Tahap 3 Project Execution | 10 November 2026 | 4 November 2026 | Laporan disusun |
 | MS3 · Pengembangan dan pengujian selesai (target) | 27 November 2026 | 26 November 2026 | Belum dimulai |
-| MS4 · Tahap 4 dan 5 dikumpulkan | 1 Desember 2026 | 30 November 2026 | Belum dimulai |
+| MS4 · Tahap 5 Project Closure dikumpulkan | 3 Desember 2026 | 30 November 2026 | Laporan akhir dan presentasi disusun |
 
-> Tenggat adalah tenggat resmi dari dosen. Tanggal mulai (30 September 2026, hari wawancara pertama) adalah asumsi. Cadangan waktu menuju 1 Desember tinggal 1 hari kerja.
+> Tenggat adalah tenggat resmi dari dosen. Tanggal mulai (30 September 2026, hari wawancara pertama) adalah asumsi. Cadangan waktu menuju 3 Desember 2026 adalah 3 hari kalender (30 November sampai 3 Desember).
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -223,7 +224,7 @@ Ringkasan: 26 aktivitas, 83,7 manday, tanggal selesai 30 November 2026, biaya tu
 | Keluaran | Berkas |
 |---|---|
 | Laporan Project Execution (pembagian tugas, progres, catatan rapat, bukti GitHub) | [laporan-project-execution.md](docs/tahap-3-project-execution/laporan-project-execution.md) |
-| Prototipe awal v0.1 | [catat-pesanan.html](prototipe/catat-pesanan.html) |
+| Prototipe (v0.1 saat Tahap 3, kini v1.0) | [catat-pesanan.html](prototipe/catat-pesanan.html) |
 
 Ringkasan per 31 Oktober 2026: 10 aktivitas terbukti selesai (draf) atau 27,5% dari 83,7 manday, sedangkan rencana adalah 40,0%. Aktivitas 3.2 dan 3.3 tertinggal.
 
@@ -238,6 +239,22 @@ Ringkasan per 31 Oktober 2026: 10 aktivitas terbukti selesai (draf) atau 27,5% d
 | Berkas hitung (selisih otomatis) | [Tahap4_Monitoring_Controlling.xlsx](docs/tahap-4-monitoring-controlling/Tahap4_Monitoring_Controlling.xlsx) |
 
 Baseline diambil dari Excel Tahap 2. Data aktual diisi dari kejadian nyata. Temuan sementara: aktivitas 3.1, 4.1, dan 4.3 selesai 31 Oktober 2026, lebih lambat 8, 5, dan 4 hari kerja dari rencana.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+<a id="closure"></a>
+## 🏁 Project Closure (Tahap 5)
+
+| Keluaran | Berkas |
+|---|---|
+| Produk akhir: prototipe Catat Pesanan v1.0 | [catat-pesanan.html](prototipe/catat-pesanan.html) |
+| Dokumentasi proyek dan hasil pengujian | [dokumentasi-dan-pengujian.md](docs/tahap-5-project-closure/dokumentasi-dan-pengujian.md) |
+| Evaluasi pencapaian tujuan | [evaluasi-pencapaian.md](docs/tahap-5-project-closure/evaluasi-pencapaian.md) |
+| Lessons learned | [lessons-learned.md](docs/tahap-5-project-closure/lessons-learned.md) |
+| Laporan akhir | [laporan-akhir.md](docs/tahap-5-project-closure/laporan-akhir.md) |
+| Presentasi final | [Presentasi_Final_Kelompok12.pptx](docs/tahap-5-project-closure/Presentasi_Final_Kelompok12.pptx) |
+
+Ringkasan: prototipe mencakup pesanan, harga, penjualan, dan stok (F1 sampai F6). Pengujian oleh kelompok: 30 dari 30 skenario lulus. Uji dengan Kak Linda belum dilakukan dan F7 (pemesanan lewat website) tidak dikerjakan.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -280,6 +297,13 @@ Baseline diambil dari Excel Tahap 2. Data aktual diisi dari kejadian nyata. Temu
     ├── 06-daftar-kebutuhan.md
     ├── 07-alur-proses.md
     ├── 08-rancangan-tampilan.md
+    ├── tahap-5-project-closure/
+    │   ├── dokumentasi-dan-pengujian.md
+    │   ├── evaluasi-pencapaian.md
+    │   ├── lessons-learned.md
+    │   ├── laporan-akhir.md
+    │   ├── Presentasi_Final_Kelompok12.pptx
+    │   └── gambar/ (2 tangkapan layar)
     ├── tahap-2-project-planning/
     │   ├── jadwal-gantt.md
     │   ├── resource-plan.md
