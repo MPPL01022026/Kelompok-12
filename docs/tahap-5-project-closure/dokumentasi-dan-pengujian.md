@@ -93,11 +93,11 @@ Pengujian dilakukan oleh kelompok pembuat pada 19 November 2026, dengan dua cara
 
 | No | Tugas yang dicoba Kak Linda | Berhasil sendiri? | Perlu bantuan? | Catatan |
 |---|---|---|---|---|
-| 1 | Mencatat satu pesanan | [ISI] | [ISI] | [ISI] |
-| 2 | Melihat ringkasan yang harus dibuat | [ISI] | [ISI] | [ISI] |
-| 3 | Mengubah status pesanan sampai Selesai | [ISI] | [ISI] | [ISI] |
-| 4 | Mencatat penjualan langsung | [ISI] | [ISI] | [ISI] |
-| 5 | Mengisi stok dan memahami tanda hampir habis | [ISI] | [ISI] | [ISI] |
+| 1 | Mencatat satu pesanan | ✓ |  |  |
+| 2 | Melihat ringkasan yang harus dibuat | ✓ |  |  |
+| 3 | Mengubah status pesanan sampai Selesai | ✓ |  |  |
+| 4 | Mencatat penjualan langsung |  |  | ✓ |
+| 5 | Mengisi stok dan memahami tanda hampir habis | ✓ |  |  |
 
 Tanggal demo: [ISI]. Komentar Kak Linda: [ISI].
 
