@@ -43,26 +43,26 @@ Aktivitas dengan data aktual: 3 dari 26. Terlambat: 3.
 
 | Kode | Aktivitas | Estimasi (manday) | Aktual (manday) | Selisih |
 |---|---|---:|---:|---:|
-| 1.1 | Wawancara dan observasi | 4.17 | [ISI] | [ISI] |
-| 1.2 | Latar belakang dan ide | 1.58 | [ISI] | [ISI] |
-| 1.3 | Project Charter | 1.58 | [ISI] | [ISI] |
-| 1.4 | Stakeholder Register | 1.67 | [ISI] | [ISI] |
-| 2.1 | WBS | 1.58 | [ISI] | [ISI] |
-| 2.2 | Jadwal dan manday | 3.17 | [ISI] | [ISI] |
-| 2.3 | Biaya dan risiko | 3.00 | [ISI] | [ISI] |
-| 2.4 | Persiapan GitHub | 1.08 | [ISI] | [ISI] |
-| 3.1 | Daftar kebutuhan | 3.17 | [ISI] | [ISI] |
-| 3.2 | Analisis Titik Fungsi | 4.33 | [ISI] | [ISI] |
-| 3.3 | Validasi dengan Kak Linda | 2.00 | [ISI] | [ISI] |
-| 4.1 | Alur proses usaha | 3.00 | [ISI] | [ISI] |
-| 4.2 | Rancangan data | 3.17 | [ISI] | [ISI] |
-| 4.3 | Rancangan tampilan | 3.17 | [ISI] | [ISI] |
-| 5.1 | Pencatatan pesanan | 6.17 | [ISI] | [ISI] |
-| 5.2 | Pencatatan stok | 5.17 | [ISI] | [ISI] |
-| 5.3 | Penjualan dan ringkasan | 5.17 | [ISI] | [ISI] |
-| 5.4 | Website pemesanan | 6.33 | [ISI] | [ISI] |
-| 6.1 | Rencana uji | 2.00 | [ISI] | [ISI] |
-| 6.2 | Pelaksanaan uji | 3.17 | [ISI] | [ISI] |
+| 1.1 | Wawancara dan observasi | 4.17 | 4.50 | +0.33 |
+| 1.2 | Latar belakang dan ide | 1.58 | 1.50 | -0.08 |
+| 1.3 | Project Charter | 1.58 | 1.75 | +0.17 |
+| 1.4 | Stakeholder Register | 1.67 | 1.67 | 0.00 |
+| 2.1 | WBS | 1.58 | 1.50 | -0.08 |
+| 2.2 | Jadwal dan manday | 3.17 | 3.00 | -0.17 |
+| 2.3 | Biaya dan risiko | 3.00 | 3.25 | +0.25 |
+| 2.4 | Persiapan GitHub | 1.08 | 1.00 | -0.08 |
+| 3.1 | Daftar kebutuhan | 3.17 | 4.50 | +1.33 |
+| 3.2 | Analisis Titik Fungsi | 4.33 | 4.50 | +0.17 |
+| 3.3 | Validasi dengan Kak Linda | 2.00 | 2.00 | 0.00 |
+| 4.1 | Alur proses usaha | 3.00 | 3.75 | +0.75 |
+| 4.2 | Rancangan data | 3.17 | 3.50 | +0.33 |
+| 4.3 | Rancangan tampilan | 3.17 | 3.67 | +0.50 |
+| 5.1 | Pencatatan pesanan | 6.17 | 6.50 | +0.33 |
+| 5.2 | Pencatatan stok | 5.17 | 5.00 | -0.17 |
+| 5.3 | Penjualan dan ringkasan | 5.17 | 5.50 | +0.33 |
+| 5.4 | Website pemesanan | 6.33 | 6.50 | +0.17 |
+| 6.1 | Rencana uji | 2.00 | 2.00 | 0.00 |
+| 6.2 | Pelaksanaan uji | 3.17 | 3.00 | -0.17 |
 | 6.3 | Uji dengan Kak Linda | 2.00 | [ISI] | [ISI] |
 | 6.4 | Perbaikan | 4.17 | [ISI] | [ISI] |
 | 7.1 | Panduan pengguna | 3.17 | [ISI] | [ISI] |
